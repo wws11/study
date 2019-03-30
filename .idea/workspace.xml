@@ -101,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/CountDownLatchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="782">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -238,32 +238,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Other" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -274,7 +248,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553916787997" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553921226111" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../资料/study/commonstudy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -432,7 +406,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44699000" />
+    <option name="totallyTimeSpent" value="45731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="404" width="1936" height="1056" extended-state="6" />
@@ -798,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/CountDownLatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="782">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
