@@ -1,5 +1,7 @@
 package source.nio02;
 
+import org.junit.Test;
+
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -14,7 +16,7 @@ import java.nio.file.StandardOpenOption;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.DosFileAttributeView;
 
-import org.junit.jupiter.api.Test;
+;
 
 public class TestNIO_2 {
 	

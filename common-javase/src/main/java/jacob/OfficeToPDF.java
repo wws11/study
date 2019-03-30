@@ -10,7 +10,8 @@ import com.jacob.activeX.ActiveXComponent;
 import com.jacob.com.ComThread;
 import com.jacob.com.Dispatch;
 import com.jacob.com.Variant;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+;
 
 import java.io.File;
 

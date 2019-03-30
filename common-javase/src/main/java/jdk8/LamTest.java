@@ -2,7 +2,7 @@ package jdk8;
 
 
 import common.Person;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -15,25 +15,22 @@ import java.util.stream.Collectors;
 public  final class LamTest {
 
 
-    public static void main(String[] args) {
+private  String  name;
 
-    }
 
-@Test
+    @Test
     public   void  test()
     {
 
         LambdaDo  lambdaDo=new LambdaDo();
         LamTest one=null;
-       Optional.ofNullable(one).orElseGet(() -> new LamTest()).testOption();
-
+       Optional.ofNullable(one).orElseGet(LamTest::new).testOption();
         //one.testOption();//空指针
 
 
-
-
-
-
+        Person person = new Person();
+        person=null;
+        Optional.ofNullable(person).orElseGet(Person::new).getName();
     }
 
 
@@ -50,8 +47,8 @@ public  final class LamTest {
 
         person=null;
         //  person.setAge(11);
-        List<Person> personList=new ArrayList<>();
-        /*  LambdaExceptionUtil.rethrowConsumer(*/
+       /* List<Person> personList=new ArrayList<>();
+        *//*  LambdaExceptionUtil.rethrowConsumer(*//*
         Optional.ofNullable(person).map(Person::getAge).ifPresent(age -> {
             System.out.println(age);
         });
@@ -62,9 +59,9 @@ public  final class LamTest {
             System.out.println("ifPresent:"+e.getAge());
             System.out.println("ifPresent:"+e.getName());
         });
-
+*/
         // person.print();   空指针
-        Optional.ofNullable(person).orElseGet(Person::new).print();//完美   供给型
+        Optional.ofNullable(person).orElseGet(Person::new);// 供给型
     }
 
     @Test
@@ -130,6 +127,26 @@ public  final class LamTest {
             System.out.println(e);
 
         });
+
+    }
+
+
+    @Test
+    public  void testOptional(){
+
+
+        LambdaDo  lambdaDo=new LambdaDo();
+        LamTest one=null;
+        Optional.ofNullable(one).orElseGet(LamTest::new).testOption();
+        //one.testOption();//空指针
+
+
+        Person person = new Person();
+        person=null;
+        String name = Optional.ofNullable(person).orElseGet(Person::new).getName();
+        System.out.println("name"+name);
+        //String s = Optional.ofNullable(person).orElseGet(Person::new).getName();
+
 
     }
 }

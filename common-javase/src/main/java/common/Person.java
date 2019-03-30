@@ -39,7 +39,7 @@ public class Person implements Serializable {
     }
 
     public   void   print(){
-        System.out.println("随变写点东西");
+        System.out.println("122444");
     }
 
   /*  @Override

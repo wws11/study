@@ -7,7 +7,120 @@
     <bookmark url="file://$PROJECT_DIR$/../GYV2.0.0/GY-Server/GY-Project/GY-ProjectImpl/src/main/java/com/gysoft/impl/project/check/service/CheckConcealService.java" description="CheckConcealInfo getCheckBriefInfo(String id,Strin..." line="42" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="" />
+    <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LambdaDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LambdaDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/META-INF/commonjavase.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/Other/JavaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/bettercode/CodeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/LambdaExceptionUtil$BiConsumerWithExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/LambdaExceptionUtil$ConsumerWithExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/LambdaExceptionUtil$FunctionWithExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/LambdaExceptionUtil$RunnableWithExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/LambdaExceptionUtil$SupplierWithExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/LambdaExceptionUtil$ToLongFunctionWithException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/LambdaExceptionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/constant/TestEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/data/DataMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/data/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/data/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/single/SingleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/single/enumType/MySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/single/enumType/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/single/staticinner/Singleton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/single/staticinner/Singleton$SingleHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/single/staticinner/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/strategy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/strategy/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/strategy/StrategyA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/strategy/StrategyB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/strategy/StrategyContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/enumtest/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/enumtest/ColorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/enumtest/EnumSetMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/enumtest/EnumTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/enumtest/EnumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/enumtest/Planet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/enumtest/TestPlanet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/enumtest/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/exception/ExceptionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/inner/OutClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/jacob/DocFmtConvert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/jacob/OfficeToPDF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/jdk8/Fn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/jdk8/LamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/jdk8/LambdaDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/CountDownLatchTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/CountDownLatchTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/CountDownLatchTest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/CountDownLatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/StaticParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/StaticSelf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/StaticTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/exchange/ExchangeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/futureTask/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/futureTask/TaskTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/threadpool/TestCyclicBarrier$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/threadpool/TestCyclicBarrier$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/threadpool/TestCyclicBarrier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/threadpool/ThreadPoolExecutorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/threadpool/ThreadPoolTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/TaskA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/TestSleep$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/TestSleep$Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/TestSleep$Thread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/TestSleep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/WaitTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/WaitTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/WaitTest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/WaitTest$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/WaitTest$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/waitsleep/WaitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/CallableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/CountDownLatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/CyclicBarrierDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/Foo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/LambdaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/Lock_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/NotifyWaitDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/ReadWriteLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/SaleTicket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/SemaphoreDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/ShareData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/ShareResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/ThreadOrderAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/xialei/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/serlize/SerizeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/source/nio/TestBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/source/nio/TestChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/source/nio02/TestBlockingNIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/source/nio02/TestBlockingNIO2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/source/nio02/TestNIO_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/source/nio02/TestNonBlockingNIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/source/nio02/TestNonBlockingNIO2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/source/nio02/TestPipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/test/Children.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/test/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/test/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/threadpool/Envent1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/threadpool/Envent2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/threadpool/ThreadTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/threadpool/ThreadTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/threadpool/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/tools/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/target/classes/META-INF/myspring.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/target/classes/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common-mybatis/target/" />
@@ -15,6 +128,7 @@
     <ignored path="$PROJECT_DIR$/spring-init/target/" />
     <ignored path="$PROJECT_DIR$/spring-demo/target/" />
     <ignored path="$PROJECT_DIR$/myspring/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,46 +138,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/test/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LambdaDo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyInstantiationAwareBeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/application.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,37 +171,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/common/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="425">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/data/DataMain.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Optional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="190">
+              <caret line="265" column="22" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="22" />
+              <folding>
+                <element signature="e#9141#9142#0" expanded="true" />
+                <element signature="e#9199#9200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/CountDownLatchTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1418">
+              <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-mybatis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -120,6 +254,8 @@
     <findStrings>
       <find>servlet.User</find>
       <find>getBean</find>
+      <find>欑偣涓滆</find>
+      <find>hah</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -131,10 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/serlize/SerizeTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/tools/MD5Util.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio02/TestNIO_2.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/jdk8/Java8Test.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/design/strategy/Main.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio02/TestBlockingNIO2.java" />
@@ -155,7 +287,6 @@
         <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/TestSleep.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/SleepWait.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/common/LambdaExceptionUtil.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/TaskA.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/WaitTest.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/threadpool/ThreadPoolTest.java" />
@@ -165,23 +296,28 @@
         <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/Person.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/threadpool/ThreadPoolExecutorFactory.java" />
         <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyInstantiationAwareBeanPostProcessor.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" />
         <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyBeanFactory.java" />
         <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/TestSpring.java" />
         <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/Car.java" />
         <option value="$PROJECT_DIR$/spring-demo/src/main/resource/application.xml" />
         <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/common-javase/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/TestSpring.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/exchange/ExchangeTest.java" />
         <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/eeee.java" />
         <option value="$PROJECT_DIR$/myspring/src/main/java.com.gysoft.spring/ddd.java" />
-        <option value="$PROJECT_DIR$/myspring/pom.xml" />
         <option value="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java" />
         <option value="$PROJECT_DIR$/myspring/src/main/resource/application.xml" />
         <option value="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/Other/TestStatic.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LambdaDo.java" />
+        <option value="$PROJECT_DIR$/common-javase/pom.xml" />
+        <option value="$PROJECT_DIR$/common-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java" />
       </list>
     </option>
   </component>
@@ -218,25 +354,7 @@
           <expand>
             <path>
               <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -248,7 +366,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553921226111" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553926132967" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../资料/study/commonstudy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -284,13 +402,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchTest">
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.CountDownLatchTest" />
+  <component name="RunManager" selected="Application.ExchangeTest">
+    <configuration name="ExchangeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.exchange.ExchangeTest" />
       <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="juc.exchange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +416,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.DataMain" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MainTest" />
       <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,46 +429,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.TestSpring" />
-      <module name="myspring" />
+    <configuration name="LamTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gysoft.spring.*" />
+          <option name="PATTERN" value="jdk8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="jdk8" />
+      <option name="MAIN_CLASS_NAME" value="jdk8.LamTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ddd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddd" />
-      <module name="myspring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="eeee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.base.base.eeee" />
-      <module name="spring-demo" />
+    <configuration name="LamTest.testOptional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gysoft.spring.base.base.*" />
+          <option name="PATTERN" value="jdk8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="jdk8" />
+      <option name="MAIN_CLASS_NAME" value="jdk8.LamTest" />
+      <option name="METHOD_NAME" value="testOptional" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPipe.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="source.nio02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="source.nio02" />
+      <option name="MAIN_CLASS_NAME" value="source.nio02.TestPipe" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.DataMain" />
-        <item itemvalue="Application.TestSpring (1)" />
-        <item itemvalue="Application.ddd" />
-        <item itemvalue="Application.eeee" />
+        <item itemvalue="Application.ExchangeTest" />
+        <item itemvalue="JUnit.TestPipe.test1" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="JUnit.LamTest.testOptional" />
+        <item itemvalue="JUnit.LamTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -374,43 +507,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 14h 31m 17s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_test - 2019.03.30 at 13h 46m 27s.xml">
+      <configuration name="LamTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 14h 31m 32s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_test - 2019.03.30 at 13h 47m 27s.xml">
+      <configuration name="LamTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 15h 47m 14s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_testOptional - 2019.03.30 at 13h 49m 40s.xml">
+      <configuration name="LamTest.testOptional" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 15h 49m 26s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_testOptional - 2019.03.30 at 13h 50m 20s.xml">
+      <configuration name="LamTest.testOptional" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 15h 54m 39s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_test - 2019.03.30 at 13h 50m 39s.xml">
+      <configuration name="LamTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 00m 08s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_test - 2019.03.30 at 14h 01m 38s.xml">
+      <configuration name="LamTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 10m 26s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_testOptional - 2019.03.30 at 14h 01m 48s.xml">
+      <configuration name="LamTest.testOptional" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 11m 39s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_testOptional - 2019.03.30 at 14h 02m 10s.xml">
+      <configuration name="LamTest.testOptional" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 11m 51s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_testOptional - 2019.03.30 at 14h 02m 30s.xml">
+      <configuration name="LamTest.testOptional" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 12m 27s.xml">
-      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    <history-entry file="LamTest_testOptional - 2019.03.30 at 14h 04m 11s.xml">
+      <configuration name="LamTest.testOptional" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45731000" />
+    <option name="totallyTimeSpent" value="49663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="404" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.34061834" />
       <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.3370607" />
@@ -420,12 +552,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.32900432" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.32792208" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.32792208" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.32829374" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32937366" />
@@ -465,51 +598,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/enumtest/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/enumtest/EnumSetMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/enumtest/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/TaskA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/threadpool/TestCyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/WaitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/TestSleep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -621,13 +709,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/Person.java" />
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/common/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -644,16 +725,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyBeanFactory.java" />
     <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/Car.java" />
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-demo/pom.xml" />
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/futureTask/TaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -663,16 +734,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyBeanPostProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyInstantiationAwareBeanPostProcessor.java" />
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/CodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -704,13 +765,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myspring/src/main/java.com.gysoft.spring/ddd.java" />
-    <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -728,38 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyInstantiationAwareBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/data/DataMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -772,8 +798,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/CountDownLatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="323">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/data/DataMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1418">
+          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LambdaDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/common/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="265" column="22" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="22" />
+          <folding>
+            <element signature="e#9141#9142#0" expanded="true" />
+            <element signature="e#9199#9200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/test/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -836,6 +981,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -6,24 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="common-javase" />
-<<<<<<< HEAD
         <module name="commonmybatis" />
         <module name="myspring" />
-=======
-        <module name="common-mybatis" />
-        <module name="commonjavase" />
-        <module name="commonmybatis" />
-        <module name="spring-init" />
-        <module name="springinit" />
->>>>>>> c711bb1... 增加spring声明周期
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="commonjavase" target="8" />
-      <module name="spring-demo" target="1.7" />
-      <module name="springdemo" target="1.7" />
-      <module name="springinit" target="1.5" />
+      <module name="commonstudy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
