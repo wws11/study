@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../GYV2.0.0/GY-Server/GY-Project/GY-ProjectImpl/src/main/java/com/gysoft/impl/project/check/service/CheckConcealService.java" description="CheckConcealInfo getCheckBriefInfo(String id,Strin..." line="42" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/common-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/common-javase/target/" />
+    <ignored path="$PROJECT_DIR$/spring-init/target/" />
+    <ignored path="$PROJECT_DIR$/spring-demo/target/" />
+    <ignored path="$PROJECT_DIR$/myspring/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyInstantiationAwareBeanPostProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/application.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanPostProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/data/DataMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/CountDownLatchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>servlet.User</find>
+      <find>getBean</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/serlize/SerizeTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/tools/MD5Util.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio02/TestNIO_2.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/jdk8/Java8Test.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/strategy/Main.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio02/TestBlockingNIO2.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio02/TestBlockingNIO.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio02/TestNonBlockingNIO.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio02/TestNonBlockingNIO2.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio02/TestPipe.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio/TestChannel.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/source/nio/TestBuffer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/data/LinkedList.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/test/Parent.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/test/Children.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/test/MainTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/threadpool/Envent2.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/xialei/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/threadpool/Envent1.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/threadpool/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/TestSleep.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/SleepWait.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/common/LambdaExceptionUtil.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/TaskA.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/WaitTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/threadpool/ThreadPoolTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/phaser/PhaserTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/aqs/AQSTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/Other/JavaTest.java" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/Person.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/threadpool/ThreadPoolExecutorFactory.java" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyInstantiationAwareBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyBeanFactory.java" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/TestSpring.java" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/Car.java" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/resource/application.xml" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/common-javase/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/TestSpring.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/exchange/ExchangeTest.java" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/eeee.java" />
+        <option value="$PROJECT_DIR$/myspring/src/main/java.com.gysoft.spring/ddd.java" />
+        <option value="$PROJECT_DIR$/myspring/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java" />
+        <option value="$PROJECT_DIR$/myspring/src/main/resource/application.xml" />
+        <option value="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/Other/TestStatic.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\DevSoft\maven3.6.0\maven-repository\repository\repository" />
+        <option name="mavenHome" value="D:/DevSoft/maven3.6.0/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\DevSoft\maven3.6.0\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="404" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="common-javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553916787997" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../资料/study/commonstudy" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\commonstudy\myspring\src\main\resource" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\commonstudy\myspring\src\main\java\com\gysoft\spring" />
+      <recent name="F:\commonstudy\ebook" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CountDownLatchTest">
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.CountDownLatchTest" />
+      <module name="common-javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.DataMain" />
+      <module name="common-javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.TestSpring" />
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gysoft.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ddd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddd" />
+      <module name="myspring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eeee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.base.base.eeee" />
+      <module name="spring-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gysoft.spring.base.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountDownLatchTest" />
+        <item itemvalue="Application.DataMain" />
+        <item itemvalue="Application.TestSpring (1)" />
+        <item itemvalue="Application.ddd" />
+        <item itemvalue="Application.eeee" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="" />
+      <created>1552994837060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552994837060</updated>
+      <workItem from="1552994841234" duration="5914000" />
+      <workItem from="1553675605285" duration="7047000" />
+      <workItem from="1553742121332" duration="30205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 14h 31m 17s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 14h 31m 32s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 15h 47m 14s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 15h 49m 26s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 15h 54m 39s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 00m 08s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 10m 26s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 11m 39s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 11m 51s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_testSpring - 2019.03.29 at 16h 12m 27s.xml">
+      <configuration name="TestSpring.testSpring" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44699000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="404" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.34061834" />
+      <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.3370607" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32792208" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32829374" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" />
+      <window_info anchor="right" id="BPMNPalette" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-javase/src/main/java/test/MainTest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-javase/src/main/java/Other/JavaTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/enumtest/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/enumtest/EnumSetMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/enumtest/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/TaskA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/threadpool/TestCyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/WaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/waitsleep/TestSleep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/exception/ExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/phaser/PhaserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/aqs/AQSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/cas/cas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/xialei/Lock_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/xialei/LambdaDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/Person.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/DisposableBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/Other/JavaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/threadpool/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/threadpool/ThreadPoolExecutorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="249" column="9" lean-forward="true" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="766" selection-start-line="766" selection-end-line="766" />
+          <folding>
+            <element signature="e#6523#6524#0" expanded="true" />
+            <element signature="e#6585#6586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/Person.java" />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/common/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyBeanFactory.java" />
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/Car.java" />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/futureTask/TaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyBeanPostProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/MyInstantiationAwareBeanPostProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/CodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/TestSpring.java" />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/threadpool/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/gysoft/spring/base/base/eeee.java" />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/exchange/ExchangeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java.com.gysoft.spring/ddd.java" />
+    <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyInstantiationAwareBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/data/DataMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/Other/TestStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-demo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>common-javase</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-expression:4.3.7.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

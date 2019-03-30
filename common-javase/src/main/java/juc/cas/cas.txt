@@ -1,0 +1,36 @@
+首先说到cas不得不说乐观锁和悲观锁的原理
+
+乐观锁
+   使用冲突的机制解决
+悲观锁
+独占资源谁都不可以去操作资源，除非自己已经执行完线程对资源的操作。
+
+
+
+cas的实现原理
+
+包含三个值
+     当前内存值（v）,预期原来的值（A）及期待更新的值（B）
+     如果内存位置V的值与预期原值A相匹配，那么处理器会自动将该位置值更新为新值B,返回true。否则处理器不做任何操作，返回false。
+
+     实现CAS最重要的一点，就是比较和交换操作的一致性，否则就会产生歧义。
+     比如当前线程比较成功后，准备更新共享变量值的时候，这个共享变量值被其他线程更改了，那么CAS函数必须返回false。
+
+   要实现这个需求，java中提供了Unsafe类，他提供了三个函数，分别用来操作基本类型int和long以及引用类型Object
+   public  final  native boolean compareAndSwapObject(Object  obj,long value,  Object   except,Object   update)
+
+
+   public   fianl   native   boolean  compareAndSwapInt(Object  object,long   valueOffSet,Obejct update );
+
+   public  final   native boolean  compareAndSwapLong(Object  obj,long   except,long  update);
+
+   参数的意义
+
+   1.obj和valueOffset：表示这个共享变量的内存地址。这个共享变量obj对象的一个成员属性valueOffset表示这个共享变量再obj类中的内存偏移量，
+   所以通过这两个参数就可以直接在内存中修改和读取共享内存偏移量。所以通过这两个参数就可以直接在内存中修改和读取共享变量值except表示预期原来的值
+   update  表示待更新的值。
+
+   JUC 并发框架下的原子类
+   private  static final Unsafe  unsafe=new Unsafe();
+
+   解决了多线程的问题。
