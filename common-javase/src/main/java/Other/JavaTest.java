@@ -31,5 +31,14 @@ public class JavaTest {
         System.out.println("没有进入异常");
    }
 
+     @Test
+    public  void  test(){
+
+        Map<String,String>  map=new HashMap<>();
+        map.put("aa","ss");
+         System.out.println(map.get(null));
+
+   }
+
 
 }
