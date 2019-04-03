@@ -95,6 +95,39 @@ public class JdbcTemplateTest {
             System.out.println(e);
         });
     }
+    //测试批量添加
+    @Test
+    public  void  testBatchAdd(){
+        List<User>  users=new ArrayList<>();
+        User user1 = new User();
+        user1.setUserName("dgdg");
+        user1.setId("fsfs");
+        user1.setPassword("ddd");
+        User user2=new User();
+        user2.setId("ddfsf");
+        user2.setPassword("www");
+        user2.setUserName("cc");
+        users.add(user1);
+        users.add(user2);
+        dao.batchAddUser(users);
+
+    }
+    //测试批量删除
+    @Test
+    public  void  batchDelete(){
+        //删除有问题
+        List<String>  ids=new ArrayList<>();
+        ids.add("ddfsf");
+        ids.add("fafwefewf");
+        dao.batchDelete(ids);
+    }
+    //测试条件查询
+    @Test
+    public  void  test11(){
+        //有问题，待解决
+        dao.queryWithCriter("dgdg","gyadmin");
+    }
+
 
 
 }

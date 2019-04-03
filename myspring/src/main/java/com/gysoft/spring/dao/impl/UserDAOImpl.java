@@ -5,6 +5,7 @@ import com.gysoft.spring.bean.UserInfo;
 import com.gysoft.spring.dao.IUserDAO;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowCallbackHandler;
 import org.springframework.jdbc.core.RowMapper;
@@ -12,12 +13,14 @@ import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @Description
@@ -26,7 +29,7 @@ import java.util.Map;
  */
 
 
-public class UserDAOImpl   extends JdbcDaoSupport implements IUserDAO {
+public class UserDAOImpl extends JdbcDaoSupport implements IUserDAO {
 
 
     @Override
@@ -53,7 +56,7 @@ public class UserDAOImpl   extends JdbcDaoSupport implements IUserDAO {
     }
 
     @Override
-    public String searchUserName(String  id) {// 简单查询，按照ID查询，返回字符串
+    public String searchUserName(String id) {// 简单查询，按照ID查询，返回字符串
         String sql = "select username from user where id=?";
         // 返回类型为String(String.class)
         return this.getJdbcTemplate().queryForObject(sql, String.class, id);
@@ -69,12 +72,12 @@ public class UserDAOImpl   extends JdbcDaoSupport implements IUserDAO {
 
     @Override
     public User searchUser(String id) {
-        String sql="select * from user where id=?";
+        String sql = "select * from user where id=?";
         return this.getJdbcTemplate().queryForObject(sql, new UserRowMapper(), id);
     }
 
     class UserRowMapper implements RowMapper<User> {
-    //rs为返回结果集，以每行为单位封装着
+        //rs为返回结果集，以每行为单位封装着
         @Override
         public User mapRow(ResultSet rs, int rowNum) throws SQLException {
 
@@ -87,14 +90,12 @@ public class UserDAOImpl   extends JdbcDaoSupport implements IUserDAO {
     }
 
 
-
     //连接查询测试
 
 
-
     @Override
-    public  List  getUserInfoList(){
-        StringBuffer  sql=new StringBuffer();
+    public List getUserInfoList() {
+        StringBuffer sql = new StringBuffer();
         sql.append("select u.userName ,u.password,un.unitName,un.unitUserCount from user as u inner join unit as un on un.userId =u.id");
         //
         List<Map<String, String>> list = this.getJdbcTemplate().query(sql.toString(), (resultSet, i) -> {
@@ -105,14 +106,14 @@ public class UserDAOImpl   extends JdbcDaoSupport implements IUserDAO {
             mp.put("unitUserCount", resultSet.getString("unitUserCount"));
             return mp;
         });
-        return  list;
+        return list;
     }
 
     //测试jdbcTemplate 的连接查询使用的返回数据使用对象存储
 
     @Override
-    public  List<UserInfo>  getUserInfoListByInfo(){
-        StringBuffer  sql=new StringBuffer();
+    public List<UserInfo> getUserInfoListByInfo() {
+        StringBuffer sql = new StringBuffer();
         sql.append("select u.userName ,u.password,un.unitName,un.unitUserCount from user as u inner join unit as un on un.userId =u.id");
         //
         List<UserInfo> list = this.getJdbcTemplate().query(sql.toString(), new RowMapper<UserInfo>() {
@@ -127,7 +128,92 @@ public class UserDAOImpl   extends JdbcDaoSupport implements IUserDAO {
                 return userInfo;
             }
         });
-        return  list;
+        return list;
     }
 
+    @Override
+    public void batchAddUser(List<User> users) {
+
+        final List<User> tempUser = users;
+
+        String sql = "insert into user(id,userName,password) values (?,?,?)";
+
+        this.getJdbcTemplate().batchUpdate(sql, new BatchPreparedStatementSetter() {
+            @Override
+            public void setValues(PreparedStatement ps, int i) throws SQLException {
+                //注意这里的下标从1开始
+                String id = tempUser.get(i).getId();
+                String userName = tempUser.get(i).getUserName();
+                String password = tempUser.get(i).getPassword();
+                ps.setString(1, id);
+                ps.setString(2, userName);
+                ps.setString(3, password);
+            }
+
+            @Override
+            public int getBatchSize() {
+
+                return tempUser.size();
+            }
+        });
     }
+
+    @Override
+    public void batchDelete(List<String> ids) {
+
+
+        if (ids.size() > 0) {
+            StringBuilder sql = new StringBuilder();
+            List<String> marks = (List) ids.stream().map((s) -> {
+                return "?";
+            }).collect(Collectors.toList());
+            sql.append(" DELETE FROM user " + " WHERE  id" + " in (");
+            sql.append(String.join(",", marks));
+            sql.append(")");
+
+
+            /*this.getJdbcTemplate().update(sql.toString(), ids.toArray());
+
+        List<Object[]> deleteParams = new ArrayList<Object[]>();
+        String sql="delete from user where id in (?)";
+
+        ids.forEach(e->{
+            deleteParams.add(new Object[]{e});
+        });
+        this.getJdbcTemplate().batchUpdate(sql,deleteParams);
+        this.getJdbcTemplate().batchUpdate(sql, new BatchPreparedStatementSetter() {
+            @Override
+            public void setValues(PreparedStatement ps, int i) throws SQLException {
+                for (int j = 0; j <ids.size() ; j++) {
+                    ps.setString(i,ids.get(i));
+                }
+
+            }
+
+            @Override
+            public int getBatchSize() {
+                return ids.size();
+            }
+        });*/
+
+        }
+
+    }
+
+    @Override
+    public List<User> queryWithCriter(String userName, String Password) {
+        String sql="select * from user where userName= (?)"+" or password = (?)";
+        List<User> list = this.getJdbcTemplate().query(sql, new RowMapper<User>() {
+            @Override
+            public User mapRow(ResultSet resultSet, int i) throws SQLException {
+
+                User user = new User();
+                user.setId(resultSet.getString("id"));
+                user.setUserName(resultSet.getString("userName"));
+                user.setPassword(resultSet.getString("password"));
+                return user;
+            }
+        });
+        return list;
+    }
+}
