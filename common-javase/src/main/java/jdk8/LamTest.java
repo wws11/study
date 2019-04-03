@@ -1,3 +1,4 @@
+/*
 package jdk8;
 
 
@@ -7,11 +8,13 @@ import org.junit.Test;
 import java.util.*;
 import java.util.stream.Collectors;
 
+*/
 /**
  * @Description
  * @Author DJZ-WWS
  * @Date 2019/3/4 13:51
- */
+ *//*
+
 public  final class LamTest {
 
 
@@ -47,8 +50,13 @@ private  String  name;
 
         person=null;
         //  person.setAge(11);
-       /* List<Person> personList=new ArrayList<>();
-        *//*  LambdaExceptionUtil.rethrowConsumer(*//*
+       */
+/* List<Person> personList=new ArrayList<>();
+        *//*
+*/
+/*  LambdaExceptionUtil.rethrowConsumer(*//*
+*/
+/*
         Optional.ofNullable(person).map(Person::getAge).ifPresent(age -> {
             System.out.println(age);
         });
@@ -59,7 +67,8 @@ private  String  name;
             System.out.println("ifPresent:"+e.getAge());
             System.out.println("ifPresent:"+e.getName());
         });
-*/
+*//*
+
         // person.print();   空指针
         Optional.ofNullable(person).orElseGet(Person::new);// 供给型
     }
@@ -150,3 +159,4 @@ private  String  name;
 
     }
 }
+*/
