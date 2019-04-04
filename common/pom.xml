@@ -106,5 +106,21 @@
             <version>3.1.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.gysoft.jdbc</groupId>
+            <artifactId>JDBCUtils</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gysoft.tools</groupId>
+            <artifactId>GY-Utils</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gysoft.tools</groupId>
+            <artifactId>GY-SendMq</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
     </dependencies>
 </project>
