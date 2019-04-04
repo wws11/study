@@ -1,8 +1,8 @@
 package javaconcurrencyinPractice.atomicvariable;
 
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
-import java.util.concurrent.atomic.*;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * ConcurrentStack

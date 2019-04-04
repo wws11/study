@@ -1,9 +1,12 @@
 package javaconcurrencyinPractice.shareobject;
 
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
+import javax.servlet.GenericServlet;
+import javax.servlet.Servlet;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import java.math.BigInteger;
-import javax.servlet.*;
 
 
 /**

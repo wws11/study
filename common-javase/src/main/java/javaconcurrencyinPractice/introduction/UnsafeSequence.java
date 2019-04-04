@@ -1,7 +1,7 @@
 package javaconcurrencyinPractice.introduction;
 
 
-import com.vonzhou.learn.jcip.annotations.NotThreadSafe;
+import javaconcurrencyinPractice.annotations.NotThreadSafe;
 
 /**
  * UnsafeSequence

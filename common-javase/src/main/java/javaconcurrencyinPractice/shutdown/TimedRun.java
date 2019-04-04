@@ -2,7 +2,8 @@ package javaconcurrencyinPractice.shutdown;
 
 import java.util.concurrent.*;
 
-import static com.vonzhou.learn.jcip.buildingblocks.LaunderThrowable.launderThrowable;
+import static javaconcurrencyinPractice.buildingblocks.LaunderThrowable.launderThrowable;
+
 
 /**
  * TimedRun

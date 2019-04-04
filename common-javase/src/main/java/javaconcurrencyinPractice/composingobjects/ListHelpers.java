@@ -1,9 +1,11 @@
 package javaconcurrencyinPractice.composingobjects;
 
-import com.vonzhou.learn.jcip.annotations.NotThreadSafe;
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.NotThreadSafe;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 
 /**

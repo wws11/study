@@ -1,9 +1,10 @@
 package javaconcurrencyinPractice.buildingblocks;
 
-import com.vonzhou.learn.jcip.annotations.GuardedBy;
+import javaconcurrencyinPractice.annotations.GuardedBy;
 
 import java.math.BigInteger;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

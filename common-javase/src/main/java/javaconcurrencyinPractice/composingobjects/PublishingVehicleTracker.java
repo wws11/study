@@ -1,9 +1,10 @@
 package javaconcurrencyinPractice.composingobjects;
 
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
-import java.util.*;
-import java.util.concurrent.*;
+import java.util.Collections;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * PublishingVehicleTracker

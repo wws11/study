@@ -1,9 +1,9 @@
 package javaconcurrencyinPractice.shareobject;
 
-import com.vonzhou.learn.jcip.annotations.Immutable;
+import javaconcurrencyinPractice.annotations.Immutable;
 
 import java.math.BigInteger;
-import java.util.*;
+import java.util.Arrays;
 
 
 /**

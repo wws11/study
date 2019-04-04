@@ -1,10 +1,11 @@
 package javaconcurrencyinPractice.performance;
 
-import com.vonzhou.learn.jcip.annotations.GuardedBy;
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.GuardedBy;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
-import java.util.*;
-import java.util.regex.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Pattern;
 
 
 /**

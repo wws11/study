@@ -1,8 +1,9 @@
 package javaconcurrencyinPractice.composingobjects;
 
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
 
-import java.util.*;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
+
+import java.util.Vector;
 
 
 /**

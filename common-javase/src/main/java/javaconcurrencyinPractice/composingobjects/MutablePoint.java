@@ -1,6 +1,7 @@
 package javaconcurrencyinPractice.composingobjects;
 
-import com.vonzhou.learn.jcip.annotations.NotThreadSafe;
+import javaconcurrencyinPractice.annotations.NotThreadSafe;
+
 /**
  * MutablePoint
  * <p/>

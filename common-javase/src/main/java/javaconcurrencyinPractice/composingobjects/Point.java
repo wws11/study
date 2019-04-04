@@ -1,7 +1,7 @@
 package javaconcurrencyinPractice.composingobjects;
 
 
-import com.vonzhou.learn.jcip.annotations.Immutable;
+import javaconcurrencyinPractice.annotations.Immutable;
 
 /**
  * Point

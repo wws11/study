@@ -1,7 +1,7 @@
 package javaconcurrencyinPractice.shutdown;
 
-import com.vonzhou.learn.jcip.annotations.GuardedBy;
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.GuardedBy;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
 import java.io.IOException;
 import java.net.Socket;

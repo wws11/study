@@ -1,6 +1,6 @@
 package javaconcurrencyinPractice.composingobjects;
 
-import com.vonzhou.learn.jcip.annotations.GuardedBy;
+import javaconcurrencyinPractice.annotations.GuardedBy;
 
 /**
  * PrivateLock
@@ -16,7 +16,7 @@ public class PrivateLock {
 
     void someMethod() {
         synchronized (myLock) {
-            // Access or modify the state of widget
+            // Access or modify the state of Widget
         }
     }
 

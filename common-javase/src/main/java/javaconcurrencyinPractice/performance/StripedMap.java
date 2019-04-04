@@ -1,7 +1,7 @@
 package javaconcurrencyinPractice.performance;
 
 
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
 /**
  * StripedMap

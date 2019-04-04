@@ -1,8 +1,11 @@
 package javaconcurrencyinPractice.performance;
 
-import com.vonzhou.learn.jcip.annotations.Immutable;
+import javaconcurrencyinPractice.annotations.Immutable;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.Vector;
 
 
 /**

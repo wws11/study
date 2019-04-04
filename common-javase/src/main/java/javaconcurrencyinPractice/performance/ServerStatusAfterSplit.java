@@ -1,9 +1,10 @@
 package javaconcurrencyinPractice.performance;
 
-import com.vonzhou.learn.jcip.annotations.GuardedBy;
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.GuardedBy;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * ServerStatusAfterSplit

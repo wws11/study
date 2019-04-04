@@ -1,9 +1,10 @@
 package javaconcurrencyinPractice.taskexecution;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.*;
 
-import static com.vonzhou.learn.jcip.buildingblocks.LaunderThrowable.launderThrowable;
+import static javaconcurrencyinPractice.buildingblocks.LaunderThrowable.launderThrowable;
 
 
 /**

@@ -8,245 +8,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/annotations/GuardedBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/annotations/Immutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/annotations/NotThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/annotations/ThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/AtomicPseudoRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/CasCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/CasNumberRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/ConcurrentStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/PseudoRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/ReentrantLockPseudoRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/SimulatedCAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/BoundedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/CellularAutomata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Factorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/HiddenIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/LaunderThrowable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Memoizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Memoizer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Memoizer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Memoizer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Preloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/SafeVectorHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/TaskRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/TestHarness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/UnsafeVectorHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/BetterVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/DelegatingVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ImprovedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ListHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MonitorVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MutablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/NumberRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PersonSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PrivateLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PublishingVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/SafePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/VisualComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BaseBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ConditionBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/GrumpyBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/OneShotLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SemaphoreOnLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SleepyBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ThreadGate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/explicitlocks/DeadlockAvoidance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/explicitlocks/DeadlockConsoleHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/explicitlocks/DeadlockDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/explicitlocks/DeadlockDetectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/explicitlocks/DeadlockHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/explicitlocks/InterruptibleLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/explicitlocks/ReadWriteMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/explicitlocks/TimedLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/UnsafeSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/DoubleCheckedLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/EagerInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/PossibleReordering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/ResourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/SafeLazyInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/SafeStates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/UnsafeLazyInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/CooperatingDeadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/CooperatingNoDeadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/DemonstrateDeadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/DynamicOrderDeadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/HashCodeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/InduceLockOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/LeftRightDeadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/other/IntegerNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/other/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/other/VersionCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/LongCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/LongCounter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestAccountTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestCountPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestLongCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestLongCounter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestLongCounter3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestLongCounter4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestMutableInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/SimpleHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/TestCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/TestCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/TestCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/TestCountFactors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/TestFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/TestVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/ThreadsafeLongCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week5/TestCountPrimesTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week5/TestDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week5/TestPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week5/TestStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week5/TestTaskSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/AttributeStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/BetterAttributeStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusAfterSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusBeforeSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/StripedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ThreeStooges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/WorkerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ConnectionDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/CountingSheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/Holder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/MutableInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/NoVisibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/OneValueCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/SafeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/Secrets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/StuffIntoPublic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/SynchronizedInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ThisEscape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ThreeStooges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/UnsafeStates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/VolatileCachedFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/BrokenPrimeProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/CheckForMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/IndexingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/LogWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/NoncancelableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrimeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrimeProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrintTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/ReaderThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/SocketUsingTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TrackingExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/UEHLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/WebCrawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/tps02/InterruptibleTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/tps02/UninterruptedTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/tps02/UninterruptedTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/FutureRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/LifecycleWebServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/OutOfTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/RenderWithTimeBudget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/SingleThreadRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/SingleThreadWebServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/TaskExecutionWebServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/ThreadPerTaskExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/ThreadPerTaskWebServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/TimeBudget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/WithinThreadExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/BarrierTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/PutTakeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/SemaphoreBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/TestBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/TestThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/TimedPutTakeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/BoundedExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/MyAppThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/MyThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/ThreadDeadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/TimingThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/TransformingSequential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/CachedFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/CountingFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/LazyInitRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/StatelessFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/SynchronizedFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/UnsafeCachingFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/UnsafeCountingFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/extenddtype/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/extenddtype/LetOneStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/extenddtype/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/extenddtype/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/extenddtype/Tortoise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Rabbit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/ArrayCopy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/CriteriaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/ExportExcelUtilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/JSONObjectTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/Java8Study.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/LambdaTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/MockTreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/MyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/OptionalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/Partition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/PjjTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/SqlExecTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/ThumbnailatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/TreeNodesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/beanutils/BeanUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/beanutils/bean/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/BagTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/BufferTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/ClosureTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/IteratorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/MapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/PredicateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/TransformerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/bean/Applicant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/bean/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/bean/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/lang/ArrayUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/lang/ObjectUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/lang/RandomStringUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/lang/StringUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/func/Fn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/func/FnConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/func/Foo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/func/Reflections.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/CompletionSereviceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/ConnectionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/CyclicBarrierTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/CyclicBarrierTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/CyclicBarrierTest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/ExchangerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/JoinTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/Mutex.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/aqs/Mutex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/PhaserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/PhaserTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/PhaserTest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/SemaPhoreTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/TestExecutorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/TestThreadLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/TestThreadLocal2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/TestThreadLocal3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadpool/ThreadPoolExecutorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/transien/ExternalizableTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/transien/TransientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/gytest/transien/bean/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/juc/aqs/AQSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/aqs/AQSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/tools/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/tools/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/Other/sort/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/target/classes/Other/sort/SortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/aqs/AQSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/target/classes/juc/aqs/AQSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/lock/LoggingWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/lock/ReetrantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/juc/lock/Widget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/ConcurrentStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/ConcurrentStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/SimulatedCAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/SimulatedCAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Memoizer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Memoizer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/BetterVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/BetterVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/DelegatingVehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/DelegatingVehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ImprovedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ImprovedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ListHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ListHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MonitorVehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MonitorVehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MutablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MutablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PersonSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PersonSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PrivateLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PrivateLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PublishingVehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PublishingVehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/SafePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/SafePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BaseBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BaseBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ConditionBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ConditionBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/GrumpyBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/GrumpyBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/OneShotLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/OneShotLatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SemaphoreOnLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SemaphoreOnLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SleepyBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SleepyBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ThreadGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ThreadGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/UnsafeSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/UnsafeSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/UnsafeLazyInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/UnsafeLazyInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/AttributeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/AttributeStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/BetterAttributeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/BetterAttributeStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusAfterSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusAfterSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusBeforeSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusBeforeSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/StripedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/StripedMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ThreeStooges.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ThreeStooges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/MutableInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/MutableInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/OneValueCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/OneValueCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/SynchronizedInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/SynchronizedInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ThreeStooges.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ThreeStooges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/VolatileCachedFactorizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/VolatileCachedFactorizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrimeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/SocketUsingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/SocketUsingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun2.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/WebCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/WebCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/FutureRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/FutureRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/SemaphoreBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/SemaphoreBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Rabbit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/gytest/my/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/demo/Animal$Calltoback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/demo/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/demo/LetOneStop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/demo/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/demo/Rabbit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/juc/demo/Tortoise.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -271,10 +90,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/SafeStates.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/ReetrantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/LoggingWidget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/Widget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticSelf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticParent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/Other/JavaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/VolatileCachedFactorizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -308,57 +193,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadlocal/Mutex.java" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/beanutils/BeanUtilsTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/ExportExcelUtilTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/BagTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/BufferTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/CriteriaTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/transien/TransientTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/Java8Study.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/OptionalTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/threadpool/ThreadPoolExecutorTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/SqlExecTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/TreeNodesTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/ThumbnailatorTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/lang/ObjectUtilsTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/commons/collections/ClosureTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/my/Mutex.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/aqs/Mutex.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/aqs/AQSTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/gytest/my/MyTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/Rabbit.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/Tortoise.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/LetOneStop.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/MainClass.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/Animal.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/extenddtype/Animal.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Animal.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Rabbit.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/StatelessFactorizer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/LazyInitRace.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/SynchronizedFactorizer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/UnsafeCountingFactorizer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/UnsafeCachingFactorizer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/CountingFactorizer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/CachedFactorizer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/BoundedExecutor.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/CasCounter.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/AtomicPseudoRandom.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/CasNumberRange.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/LinkedQueue.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/ReentrantLockPseudoRandom.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Factorizer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/HiddenIterator.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/DoubleCheckedLocking.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/EagerInitialization.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/ResourceFactory.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/SafeLazyInitialization.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/SafeStates.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/CooperatingDeadlock.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/CooperatingNoDeadlock.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/DemonstrateDeadlock.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/SafeStates.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/lock/ReetrantTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Memoizer1.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/ConcurrentStack.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/SimulatedCAS.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/BetterVector.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Counter.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/DelegatingVehicleTracker.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ImprovedList.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ListHelpers.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MonitorVehicleTracker.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MutablePoint.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Point.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PrivateLock.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PublishingVehicleTracker.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/SafePoint.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BaseBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ConditionBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/GrumpyBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/OneShotLatch.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SemaphoreOnLock.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SleepyBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/Sequence.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ThreadGate.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/UnsafeSequence.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/UnsafeLazyInitialization.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/AttributeStore.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/BetterAttributeStore.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusBeforeSplit.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusAfterSplit.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/StripedMap.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ThreeStooges.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/MutableInteger.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/OneValueCache.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/SynchronizedInteger.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ThreeStooges.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/LogService.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrimeGenerator.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/SocketUsingTask.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/WebCrawler.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/SemaphoreBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/FutureRenderer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/Renderer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/VolatileCachedFactorizer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun2.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PersonSet.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/lock/Widget.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/juc/lock/LoggingWidget.java" />
       </list>
     </option>
   </component>
@@ -429,7 +314,7 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="juc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -437,8 +322,8 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="jmm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="juc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -446,8 +331,8 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="livenesshazards" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="juc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lock" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -455,70 +340,7 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pcpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pcpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="week1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pcpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="week1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="TestAccountTransfer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pcpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="week2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pcpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="week2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="SimpleHistogram.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pcpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="week2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="TestVehicleTracker.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javaconcurrencyinPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="threadpools" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Other" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -535,7 +357,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554357210076" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554367006684" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -577,7 +399,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
+  <component name="RunManager" selected="Application.ReetrantTest">
     <configuration name="AQSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="juc.aqs.AQSTest" />
       <module name="common-javase" />
@@ -617,18 +439,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcTemplateTest.batchDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myspring" />
+    <configuration name="ReetrantTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.lock.ReetrantTest" />
+      <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gysoft.spring.jdbcTemplate.*" />
+          <option name="PATTERN" value="juc.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gysoft.spring.jdbcTemplate" />
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.jdbcTemplate.JdbcTemplateTest" />
-      <option name="METHOD_NAME" value="batchDelete" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -651,11 +470,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReetrantTest" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.AQSTest" />
         <item itemvalue="JUnit.JdbcTemplateTest.test11" />
-        <item itemvalue="JUnit.JdbcTemplateTest.batchDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -685,7 +504,7 @@
       <workItem from="1554251574030" duration="2967000" />
       <workItem from="1554270295259" duration="8815000" />
       <workItem from="1554337327856" duration="1549000" />
-      <workItem from="1554339232774" duration="5768000" />
+      <workItem from="1554339232774" duration="7846000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1554118744879</created>
@@ -730,7 +549,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111119000" />
+    <option name="totallyTimeSpent" value="113197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -889,389 +708,371 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/demo/extenddtype/Rabbit.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/DelegatingVehicleTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="181">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/demo/extenddtype/Tortoise.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ImprovedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-125">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/StatelessFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/LazyInitRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/SynchronizedFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/UnsafeCountingFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/UnsafeCachingFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/CountingFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/CachedFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/BoundedExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/CasCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/AtomicPseudoRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/CasNumberRange.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ListHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/LinkedQueue.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MonitorVehicleTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="215">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/ReentrantLockPseudoRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/CellularAutomata.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MutablePoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Factorizer.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/LaunderThrowable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/Memoizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/HiddenIterator.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PrivateLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PublishingVehicleTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/SafePoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BaseBoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ConditionBoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/GrumpyBoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/OneShotLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SemaphoreOnLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SleepyBoundedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/TaskRunnable.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ThreadGate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/TestHarness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadpools/MyAppThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/BoundedHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/annotations/GuardedBy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#1960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/annotations/Immutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/annotations/NotThreadSafe.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/UnsafeSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/annotations/ThreadSafe.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/UnsafeLazyInitialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/PossibleReordering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/DoubleCheckedLocking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="204">
           <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/EagerInitialization.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/AttributeStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="238">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/ResourceFactory.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/BetterAttributeStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="238">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/SafeLazyInitialization.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusBeforeSplit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="191">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/CooperatingDeadlock.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusAfterSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/StripedMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ThreeStooges.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/MutableInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/OneValueCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/SynchronizedInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ThreeStooges.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-346">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrimeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/SocketUsingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/CooperatingNoDeadlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/DemonstrateDeadlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/DynamicOrderDeadlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/HashCodeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/InduceLockOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/livenesshazards/LeftRightDeadlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/other/IntegerNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/other/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/LongCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/LongCounter2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestAccountTransfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestLongCounter.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/WebCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestLongCounter3.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/SemaphoreBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestLongCounter4.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/LaunderThrowable.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/FutureRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="470">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week2/SimpleHistogram.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/Renderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="-306">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/pcpp/week1/TestCountPrimes.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/SafeStates.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/VolatileCachedFactorizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="255">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Rabbit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticSelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticParent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PersonSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/Other/JavaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/Widget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/LoggingWidget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/ReetrantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

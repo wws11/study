@@ -1,8 +1,8 @@
 package javaconcurrencyinPractice.custom;
 
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
-import java.util.concurrent.locks.*;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 /**
  * OneShotLatch

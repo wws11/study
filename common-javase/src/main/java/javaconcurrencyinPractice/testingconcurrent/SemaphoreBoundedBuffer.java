@@ -1,9 +1,9 @@
 package javaconcurrencyinPractice.testingconcurrent;
 
-import com.vonzhou.learn.jcip.annotations.GuardedBy;
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.GuardedBy;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
-import java.util.concurrent.*;
+import java.util.concurrent.Semaphore;
 
 /**
  * BoundedBuffer

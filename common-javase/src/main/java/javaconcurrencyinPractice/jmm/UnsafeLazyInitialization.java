@@ -1,7 +1,7 @@
 package javaconcurrencyinPractice.jmm;
 
 
-import com.vonzhou.learn.jcip.annotations.NotThreadSafe;
+import javaconcurrencyinPractice.annotations.NotThreadSafe;
 
 /**
  * UnsafeLazyInitialization

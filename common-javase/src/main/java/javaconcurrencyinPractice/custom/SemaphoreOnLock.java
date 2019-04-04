@@ -1,9 +1,11 @@
 package javaconcurrencyinPractice.custom;
 
-import com.vonzhou.learn.jcip.annotations.GuardedBy;
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.GuardedBy;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
-import java.util.concurrent.locks.*;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * SemaphoreOnLock

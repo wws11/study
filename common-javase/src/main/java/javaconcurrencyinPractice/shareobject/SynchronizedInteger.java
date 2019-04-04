@@ -1,8 +1,8 @@
 package javaconcurrencyinPractice.shareobject;
 
 
-import com.vonzhou.learn.jcip.annotations.GuardedBy;
-import com.vonzhou.learn.jcip.annotations.ThreadSafe;
+import javaconcurrencyinPractice.annotations.GuardedBy;
+import javaconcurrencyinPractice.annotations.ThreadSafe;
 
 /**
  * SynchronizedInteger

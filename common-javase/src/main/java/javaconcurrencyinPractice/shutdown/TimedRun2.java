@@ -1,9 +1,10 @@
 package javaconcurrencyinPractice.shutdown;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
-import static com.vonzhou.learn.jcip.buildingblocks.LaunderThrowable.launderThrowable;
 import static java.util.concurrent.Executors.newScheduledThreadPool;
+import static javaconcurrencyinPractice.buildingblocks.LaunderThrowable.launderThrowable;
 
 /**
  * TimedRun2

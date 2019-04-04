@@ -1,7 +1,7 @@
 package javaconcurrencyinPractice.shareobject;
 
 
-import com.vonzhou.learn.jcip.annotations.NotThreadSafe;
+import javaconcurrencyinPractice.annotations.NotThreadSafe;
 
 /**
  * MutableInteger
