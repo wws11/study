@@ -1,5 +1,8 @@
 package common;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import java.io.Serializable;
 
 /**
@@ -7,6 +10,8 @@ import java.io.Serializable;
  * @Author DJZ-WWS
  * @Date 2019/2/28 16:21
  */
+@AllArgsConstructor
+@NoArgsConstructor
 public class Person implements Serializable {
 
     private String  name;

@@ -1,5 +1,7 @@
 package bettercode;
 
+import java.util.Date;
+
 /**
  * @Description   Effective Java  测试
  * @Author DJZ-WWS
@@ -10,7 +12,7 @@ public class CodeTest {
 
     public static void main(String[] args) {
 
-
+        Date date = new Date();
         System.out.println(  valueOf(1==1));
     }
 
