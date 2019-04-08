@@ -83,7 +83,6 @@ public class CutIfElse {
         System.out.println(map.get(2).get());//Person{name='null', age='0'}
         //不为空的返回
         System.out.println(map.get(1).get());
-        System.out.println();
     }
 
 

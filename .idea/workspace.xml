@@ -7,7 +7,34 @@
     <bookmark url="file://$PROJECT_DIR$/../GYV2.0.0/GY-Server/GY-Project/GY-ProjectImpl/src/main/java/com/gysoft/impl/project/check/service/CheckConcealService.java" description="CheckConcealInfo getCheckBriefInfo(String id,Strin..." line="42" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="" />
+    <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/ObserverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observerable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/WechatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/bettercode/CutIfElse.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/target/classes/bettercode/CutIfElse.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common-mybatis/target/" />
@@ -30,57 +57,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observerable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/WechatServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/ObserverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/common/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Supplier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="17" />
-              <folding>
-                <element signature="e#2837#2838#0" expanded="true" />
-                <element signature="e#2866#2867#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -114,30 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/ConcurrentStack.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/atomicvariable/SimulatedCAS.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/BetterVector.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Counter.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/DelegatingVehicleTracker.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ImprovedList.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/ListHelpers.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MonitorVehicleTracker.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/MutablePoint.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/Point.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PrivateLock.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PublishingVehicleTracker.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/SafePoint.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BaseBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/BoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ConditionBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/GrumpyBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/OneShotLatch.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SemaphoreOnLock.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/SleepyBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/Sequence.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/custom/ThreadGate.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/introduction/UnsafeSequence.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/jmm/UnsafeLazyInitialization.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/AttributeStore.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/BetterAttributeStore.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusBeforeSplit.java" />
@@ -165,6 +169,30 @@
         <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/CodeTest.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Shape.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Square.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Circle.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/factory/ShapeFactory.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/factory/FactoryPatternDemo.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Rectangle.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Shape.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Rectangle.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Circle.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Square.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Color.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Red.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Green.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Blue.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/ShapeFactory.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/ColorFactory.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/FactoryProducer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/AbstractFactoryPatternDemo.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observerable.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/observer/User.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/observer/WechatServer.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/observer/ObserverTest.java" />
       </list>
     </option>
   </component>
@@ -197,13 +225,58 @@
     <panes>
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="design" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="design" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="observer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554693609044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554705726993" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -213,24 +286,24 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\commonstudy\cas" />
-      <recent name="F:\commonstudy\common" />
-      <recent name="F:\commonstudy\myspring\src\main\resource" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\commonstudy\common-javase\src\main\java\design\abstractfactory" />
+      <recent name="F:\commonstudy\common-javase\src\main\java\javaconcurrencyinPractice" />
+      <recent name="F:\commonstudy" />
+      <recent name="F:\commonstudy\common-javase\src\main\java\gytest" />
+      <recent name="F:\commonstudy\myspring\src\main\java\com\gysoft\spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gytest.my" />
       <recent name="common" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\commonstudy\common-javase\src\main\java\javaconcurrencyinPractice" />
-      <recent name="F:\commonstudy" />
-      <recent name="F:\commonstudy\common-javase\src\main\java\gytest" />
-      <recent name="F:\commonstudy\myspring\src\main\java\com\gysoft\spring" />
-      <recent name="F:\commonstudy\common-javase\src\main\java\design\build\code" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\commonstudy\cas" />
+      <recent name="F:\commonstudy\common" />
+      <recent name="F:\commonstudy\myspring\src\main\resource" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,13 +318,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CutIfElse.test1">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaconcurrencyinPractice.other.Main" />
+  <component name="RunManager" selected="Application.ObserverTest">
+    <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.abstractfactory.AbstractFactoryPatternDemo" />
       <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaconcurrencyinPractice.other.*" />
+          <option name="PATTERN" value="design.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.factory.FactoryPatternDemo" />
+      <module name="common-javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.observer.ObserverTest" />
+      <module name="common-javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,38 +374,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CutIfElse.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bettercode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bettercode" />
-      <option name="MAIN_CLASS_NAME" value="bettercode.CutIfElse" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CutIfElse.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bettercode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bettercode" />
-      <option name="MAIN_CLASS_NAME" value="bettercode.CutIfElse" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CutIfElse.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-javase" />
       <extension name="coverage">
@@ -325,11 +392,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverTest" />
+        <item itemvalue="Application.AbstractFactoryPatternDemo" />
+        <item itemvalue="Application.FactoryPatternDemo" />
         <item itemvalue="JUnit.CutIfElse.test1" />
         <item itemvalue="JUnit.CutIfElse.testConsumer" />
-        <item itemvalue="JUnit.CutIfElse.test3" />
-        <item itemvalue="JUnit.CutIfElse.test2" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +427,7 @@
       <workItem from="1554270295259" duration="8815000" />
       <workItem from="1554337327856" duration="1549000" />
       <workItem from="1554339232774" duration="10911000" />
-      <workItem from="1554682684312" duration="6443000" />
+      <workItem from="1554682684312" duration="10214000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1554118744879</created>
@@ -405,7 +472,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122705000" />
+    <option name="totallyTimeSpent" value="126476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,6 +485,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="404" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.3855165" />
       <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.3370607" />
@@ -428,11 +496,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.3261339" />
+      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.3261339" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.32792208" />
-      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32937366" />
@@ -563,180 +631,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/BetterAttributeStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusBeforeSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusAfterSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/StripedMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ThreeStooges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/OneValueCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/SynchronizedInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ThreeStooges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/LogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrimeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/SocketUsingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/WebCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/testingconcurrent/SemaphoreBoundedBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/buildingblocks/LaunderThrowable.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/taskexecution/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/VolatileCachedFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Rabbit.java" />
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/demo/runnabletype/Animal.java" />
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/TimedRun2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/composingobjects/PersonSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/Other/JavaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/LoggingWidget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/ReetrantTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/lock/Widget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -930,6 +824,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -937,13 +841,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/factory/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/factory/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/factory/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/factory/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/factory/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/factory/FactoryPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Red.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Green.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/AbstractFactoryPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/ColorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Blue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/FactoryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observerable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/WechatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/ObserverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
