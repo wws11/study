@@ -8,32 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/AbstractFactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/ColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/abstractfactory/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/FactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/factory/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/ObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observerable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/observer/WechatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/bettercode/CutIfElse.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/target/classes/bettercode/CutIfElse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/ProxyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/design/observer/ObserverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/target/classes/design/observer/ObserverTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,57 +42,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observerable.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/Engineer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/WechatServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/User.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="544">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/ObserverTest.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibMainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="221">
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/Observer.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -142,16 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/AttributeStore.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/BetterAttributeStore.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusBeforeSplit.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ServerStatusAfterSplit.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/StripedMap.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/performance/ThreeStooges.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/MutableInteger.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/OneValueCache.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/SynchronizedInteger.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ThreeStooges.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/LogService.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/PrimeGenerator.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shutdown/SocketUsingTask.java" />
@@ -193,6 +160,16 @@
         <option value="$PROJECT_DIR$/common-javase/src/main/java/design/observer/User.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/design/observer/WechatServer.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/design/observer/ObserverTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/ProxyDemo.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/Subject.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/RealSubject.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/MyInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/MyInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/Client.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/Engineer.java" />
+        <option value="$PROJECT_DIR$/common-javase/pom.xml" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibProxy.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibMainTest.java" />
       </list>
     </option>
   </component>
@@ -265,7 +242,17 @@
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="design" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="observer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="proxy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="design" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="proxy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cglib" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -276,7 +263,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554705726993" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554710867148" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -318,13 +305,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObserverTest">
+  <component name="RunManager" selected="Application.CglibMainTest">
     <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.abstractfactory.AbstractFactoryPatternDemo" />
       <module name="common-javase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="design.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CglibMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.proxy.cglib.CglibMainTest" />
+      <module name="common-javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.proxy.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.proxy.jdkDymic.Client" />
+      <module name="common-javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.proxy.jdkDymic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,45 +371,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CutIfElse.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bettercode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bettercode" />
-      <option name="MAIN_CLASS_NAME" value="bettercode.CutIfElse" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CutIfElse.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bettercode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bettercode" />
-      <option name="MAIN_CLASS_NAME" value="bettercode.CutIfElse" />
-      <option name="METHOD_NAME" value="testConsumer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CglibMainTest" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.AbstractFactoryPatternDemo" />
         <item itemvalue="Application.FactoryPatternDemo" />
-        <item itemvalue="JUnit.CutIfElse.test1" />
-        <item itemvalue="JUnit.CutIfElse.testConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +408,7 @@
       <workItem from="1554270295259" duration="8815000" />
       <workItem from="1554337327856" duration="1549000" />
       <workItem from="1554339232774" duration="10911000" />
-      <workItem from="1554682684312" duration="10214000" />
+      <workItem from="1554682684312" duration="14236000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1554118744879</created>
@@ -472,7 +453,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126476000" />
+    <option name="totallyTimeSpent" value="130498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,12 +477,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.3261339" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49946752" weight="0.3261339" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.32792208" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32829374" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" weight="0.32829374" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5005325" side_tool="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32721382" />
@@ -631,82 +612,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticSelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/juc/StaticParent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/threadsafe/CachedFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/Animals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/ConnectionDispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/CountingSheep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="472" column="31" lean-forward="true" selection-start-line="472" selection-start-column="31" selection-end-line="472" selection-end-column="31" />
-          <folding>
-            <element signature="e#6390#6391#0" expanded="true" />
-            <element signature="e#6438#6439#0" expanded="true" />
-            <element signature="e#6844#6845#0" expanded="true" />
-            <element signature="e#6875#6876#0" expanded="true" />
-            <element signature="e#7577#7578#0" expanded="true" />
-            <element signature="e#7625#7626#0" expanded="true" />
-            <element signature="e#10720#10721#0" expanded="true" />
-            <element signature="e#10750#10751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/javaconcurrencyinPractice/shareobject/MutableInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1041,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/WechatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="242">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#422#423#0" expanded="true" />
@@ -1053,8 +958,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/observer/ObserverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="374">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/ProxyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/MyInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/jdkDymic/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/Engineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibMainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
