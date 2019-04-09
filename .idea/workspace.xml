@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/jacob/DocFmtConvert.java" afterPath="$PROJECT_DIR$/common-javase/src/main/java/jacob/DocFmtConvert.java" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" afterPath="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" />
       <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/test/basejava/TestMapIterator.java" afterPath="$PROJECT_DIR$/common-javase/src/main/java/test/basejava/TestMapIterator.java" />
-      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/META-INF/common-javase.kotlin_module" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/jacob/DocFmtConvert.class" afterPath="$PROJECT_DIR$/common-javase/target/classes/jacob/DocFmtConvert.class" />
-      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/jacob/OfficeToPDF.class" afterPath="$PROJECT_DIR$/common-javase/target/classes/jacob/OfficeToPDF.class" />
-      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/test/basejava/TestMapIterator.class" afterPath="$PROJECT_DIR$/common-javase/target/classes/test/basejava/TestMapIterator.class" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" afterPath="$PROJECT_DIR$/common/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,8 +70,8 @@
       <file leaf-file-name="TestMapIterator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/test/basejava/TestMapIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="95" column="35" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="95" selection-end-column="35" />
+            <state relative-caret-position="173">
+              <caret line="92" column="93" lean-forward="false" selection-start-line="92" selection-start-column="93" selection-end-line="92" selection-end-column="93" />
               <folding>
                 <element signature="e#379#396#0" expanded="true" />
               </folding>
@@ -201,10 +191,10 @@
         <option value="$PROJECT_DIR$/common-javase/pom.xml" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibProxy.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibMainTest.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/test/basejava/TestMapIterator.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/jacob/DocFmtConvert.java" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/test/basejava/TestMapIterator.java" />
       </list>
     </option>
   </component>
@@ -567,7 +557,7 @@
       <workItem from="1554337327856" duration="1549000" />
       <workItem from="1554339232774" duration="10911000" />
       <workItem from="1554682684312" duration="14236000" />
-      <workItem from="1554823006671" duration="1083000" />
+      <workItem from="1554823006671" duration="1630000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1554118744879</created>
@@ -612,7 +602,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131581000" />
+    <option name="totallyTimeSpent" value="132128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,9 +634,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1031,7 +1021,7 @@
         <state relative-caret-position="521">
           <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1078,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/test/basejava/TestMapIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="95" column="35" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="95" selection-end-column="35" />
+        <state relative-caret-position="173">
+          <caret line="92" column="93" lean-forward="false" selection-start-line="92" selection-start-column="93" selection-end-line="92" selection-end-column="93" />
           <folding>
             <element signature="e#379#396#0" expanded="true" />
           </folding>

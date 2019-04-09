@@ -89,6 +89,13 @@ public class TestMapIterator {
 
     @Test
     public  void test(){
+        /**
+         * SELECT * FROM USER  WHERE DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= DATE(createTime);
+         实现思路获取最近一周数据，格式化时间具体到某日
+
+         得到一周内每天的分组数组，再根据状态处理每天的数据
+
+         */
         Date date = new Date();
         System.out.println(date);
         SimpleDateFormat  simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd");
