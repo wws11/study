@@ -2,6 +2,8 @@ package test.basejava;
 
 import org.junit.Test;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -84,5 +86,14 @@ public class TestMapIterator {
         System.out.println("第四种遍历方式耗时：-》"+(end4-begin4));
     }
 
+
+    @Test
+    public  void test(){
+        Date date = new Date();
+        System.out.println(date);
+        SimpleDateFormat  simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd");
+        String format = simpleDateFormat.format(date);
+        System.out.println(format);
+    }
 
 }

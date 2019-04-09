@@ -7,13 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="common-mybatis" />
         <module name="commonmybatis" />
         <module name="myspring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cas" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="common-javase" target="8" />
+      <module name="common-mybatis" target="1.5" />
+      <module name="commonstudy" target="1.5" />
       <module name="es" target="1.5" />
+      <module name="myspring" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

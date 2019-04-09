@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-javase/common-javase.iml" filepath="$PROJECT_DIR$/common-javase/common-javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-mybatis/common-mybatis.iml" filepath="$PROJECT_DIR$/common-mybatis/common-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonstudy.iml" filepath="$PROJECT_DIR$/commonstudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myspring/myspring.iml" filepath="$PROJECT_DIR$/myspring/myspring.iml" />
+    </modules>
+  </component>
+</project>
