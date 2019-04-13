@@ -12,6 +12,7 @@
         <module>common-javase</module>
         <module>myspring</module>
         <module>common</module>
+        <module>note</module>
     </modules>
     <packaging>pom</packaging>
 

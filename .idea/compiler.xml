@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="commonmybatis" />
         <module name="myspring" />
+        <module name="note" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
