@@ -5,7 +5,7 @@ package tools;
  * @Author DJZ-WWS
  * @Date 2019/3/4 11:58
  */
-public class StringUtils {
+public class StringUtil {
 
 
     public static void main(String[] args) {

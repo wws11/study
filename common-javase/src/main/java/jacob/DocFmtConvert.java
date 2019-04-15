@@ -5,11 +5,10 @@ package jacob;
  * @Author DJZ-WWS
  * @Date 2019/2/19 17:26
  */
-import com.jacob.activeX.ActiveXComponent;
+/*import com.jacob.activeX.ActiveXComponent;
 import com.jacob.com.ComThread;
 import com.jacob.com.Dispatch;
-import com.jacob.com.Variant;
-import java.io.File;
+import com.jacob.com.Variant;*/
 // 格式大全:前缀对应以下方法的fmt值
 // 0:Microsoft Word 97 - 2003 文档 (.doc)
 // 1:Microsoft Word 97 - 2003 模板 (.dot)
@@ -43,22 +42,22 @@ import java.io.File;
  * @created 2017 /08/09 16:09:32
  */
 public class DocFmtConvert {
-    /**
+   /* *//**
      * doc格式
-     */
+     *//*
     private static final int DOC_FMT = 0;
-    /**
+    *//**
      * docx格式
-     */
+     *//*
     private static final int DOCX_FMT = 12;
-    /**
+    *//**
      * 描述 The entry point of application.
      *
      * @param args
      * the input arguments
      * @author Harley Hong
      * @created 2017 /08/09 16:14:44
-     */
+     *//*
     public static void main(String[] args) {
         DocFmtConvert dfc = new DocFmtConvert();
         String srcDocPath = "C:\\Users\\DELL\\Desktop\\rtf测试.rtf";
@@ -69,7 +68,7 @@ public class DocFmtConvert {
             e.printStackTrace();
         }
     }
-    /**
+    *//**
      * 根据格式类型转换doc文件
      *
      * @param srcPaththe doc path 源文件
@@ -79,7 +78,7 @@ public class DocFmtConvert {
      * @throws Exception the exception
      * @author Harley Hong
      * @created 2017 /08/09 16:14:07 Convert docx 2 doc file.
-     */
+     *//*
     public File convertDocFmt(String srcPath, String descPath, int fmt) throws Exception {
         // 实例化ComThread线程与ActiveXComponent
         ComThread.InitSTA();
@@ -102,5 +101,5 @@ public class DocFmtConvert {
             app.invoke("Quit", new Variant[] {});
             ComThread.Release();
         }
-    }
+    }*/
 }

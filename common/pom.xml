@@ -74,11 +74,11 @@
             <version>4.3.7.RELEASE</version>
         </dependency>
 
-        <dependency>
+       <!-- <dependency>
             <groupId>com.jacob</groupId>
             <artifactId>jacob</artifactId>
             <version>1.19</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.mybatis</groupId>
@@ -105,7 +105,7 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
         </dependency>
-
+<!--
         <dependency>
             <groupId>com.gysoft.jdbc</groupId>
             <artifactId>JDBCUtils</artifactId>
@@ -120,7 +120,7 @@
             <groupId>com.gysoft.tools</groupId>
             <artifactId>GY-SendMq</artifactId>
             <version>1.0.0</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.apache.curator</groupId>

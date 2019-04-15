@@ -6,14 +6,7 @@ package jacob;
  * @Date 2019/2/19 16:37
  */
 
-import com.jacob.activeX.ActiveXComponent;
-import com.jacob.com.ComThread;
-import com.jacob.com.Dispatch;
-import com.jacob.com.Variant;
-import org.junit.Test;
 ;
-
-import java.io.File;
 
 /**
  *
@@ -25,7 +18,7 @@ import java.io.File;
  */
 public class OfficeToPDF {
 
-
+/*
     private static final int wdFormatPDF = 17;
     private static final int xlTypePDF = 0;
     private static final int ppSaveAsPDF = 32;
@@ -83,7 +76,7 @@ public class OfficeToPDF {
         return fileName.substring(splitIndex + 1);
     }
 
-    /**
+    *//**
      *
      * @Title: word2PDF
      * @Description: 转换word文档为pdf
@@ -92,7 +85,7 @@ public class OfficeToPDF {
      * @param @return    设定文件
      * @return boolean    返回类型
      * @throws
-     */
+     *//*
     public static boolean word2PDF(String inputFile,String pdfFile){
         try{
             //打开word应用程序
@@ -109,13 +102,13 @@ public class OfficeToPDF {
                     true
             ).toDispatch();
             //调用Document对象的SaveAs方法，将文档保存为pdf格式
-        /*
+        *//*
         Dispatch.call(doc,
                     "SaveAs",
                     pdfFile,
                     wdFormatPDF     //word保存为pdf格式宏，值为17
                     );
-                    */
+                    *//*
             Dispatch.call(doc,
                     "ExportAsFixedFormat",
                     pdfFile,
@@ -131,7 +124,7 @@ public class OfficeToPDF {
         }
     }
 
-    /**
+    *//**
      *
      * @Title: excel2PDF
      * @Description: 转换excel为PDF
@@ -140,10 +133,10 @@ public class OfficeToPDF {
      * @param @return    设定文件
      * @return boolean    返回类型
      * @throws
-     */
+     *//*
 
 
-    /**
+    *//**
      *
      * @Title: ppt2PDF
      * @Description: 转换ppt为office
@@ -152,7 +145,7 @@ public class OfficeToPDF {
      * @param @return    设定文件
      * @return boolean    返回类型
      * @throws
-     */
+     *//*
     public static boolean ppt2PDF(String inputFile,String pdfFile){
         try{
             ActiveXComponent app = new ActiveXComponent("PowerPoint.Application");
@@ -265,7 +258,7 @@ public class OfficeToPDF {
 
 
     public  void tt(){
-        /* logger.info("启动Word..");
+        *//* logger.info("启动Word..");
         long start = System.currentTimeMillis();
         ActiveXComponent app = null;
         Dispatch doc = null;
@@ -284,9 +277,9 @@ public class OfficeToPDF {
             if(null!=tofile){
                 tofile.delete();
             }
-           *//* if (tofile.exists()) {
+           *//**//* if (tofile.exists()) {
 
-            }*//*
+            }*//**//*
             Dispatch.call(doc,
                     "SaveAs",
                     toPath, // FileName
@@ -304,6 +297,6 @@ public class OfficeToPDF {
                 app.invoke("Quit", new Variant[]{});
         }
         //如果没有这句话,winword.exe进程将不会关闭
-        ComThread.Release();*/
-    }
+        ComThread.Release();*//*
+    }*/
 }

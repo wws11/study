@@ -1,8 +1,5 @@
 package common;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-
 import java.io.Serializable;
 
 /**
@@ -10,14 +7,21 @@ import java.io.Serializable;
  * @Author DJZ-WWS
  * @Date 2019/2/28 16:21
  */
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class Person implements Serializable {
 
     private String  name;
     private  int age;
 
-    public  String getName() {
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public Person() {
+    }
+
+    public String getName() {
         return name;
     }
 
@@ -25,15 +29,13 @@ public class Person implements Serializable {
         this.name = name;
     }
 
-    public  int getAge() {
+    public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
         this.age = age;
     }
-
-
 
     @Override
     public String toString() {
