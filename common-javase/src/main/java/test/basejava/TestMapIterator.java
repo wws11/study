@@ -2,6 +2,8 @@ package test.basejava;
 
 import org.junit.Test;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -84,5 +86,21 @@ public class TestMapIterator {
         System.out.println("第四种遍历方式耗时：-》"+(end4-begin4));
     }
 
+
+    @Test
+    public  void test(){
+        /**
+         * SELECT * FROM USER  WHERE DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= DATE(createTime);
+         实现思路获取最近一周数据，格式化时间具体到某日
+
+         得到一周内每天的分组数组，再根据状态处理每天的数据
+
+         */
+        Date date = new Date();
+        System.out.println(date);
+        SimpleDateFormat  simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd");
+        String format = simpleDateFormat.format(date);
+        System.out.println(format);
+    }
 
 }
