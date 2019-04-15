@@ -17,4 +17,9 @@ public class RealSubject   implements Subject{
         System.out.println("说话");
         return "张三";
     }
+
+    @Override
+    public int earnMony() {
+        return 10;
+    }
 }

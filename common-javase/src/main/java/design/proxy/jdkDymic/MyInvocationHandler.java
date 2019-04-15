@@ -28,10 +28,16 @@ public class MyInvocationHandler implements InvocationHandler {
             int invoke = (int) method.invoke(realSubject, args);
             System.out.println("调用读书的sell方法");
             return invoke;
-        } else {
+        } else if(method.getName().equals("speak")){
+
             String string = (String) method.invoke(realSubject, args);
             System.out.println("调用的是说话的方法");
             return string;
+        } else if(method.getName().equals("earnMony")) {
+                int mony= (int) method.invoke(realSubject,args);
+            System.out.println("挣钱了");
+            return   mony;
         }
+            return null;
     }
 }

@@ -26,6 +26,7 @@ public class Client {
         System.out.println("代理对象" + proxyClass);
         proxyClass.sellBooks();
         proxyClass.speak();
+        proxyClass.earnMony();
 
     }
 }

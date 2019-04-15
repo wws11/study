@@ -4,9 +4,7 @@ package juc.waitsleep;
 
 import org.junit.Test;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+
 import java.util.concurrent.locks.LockSupport;
 
 /**

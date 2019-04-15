@@ -31,8 +31,9 @@ public class TestSpring {
         System.out.println("容器现在开始启动");
         ApplicationContext factory = new ClassPathXmlApplicationContext("application.xml");
         System.out.println("容器初始化成功");
-        Car car = (Car) factory.getBean("car");
-        System.out.println(car);
+        //Car car = (Car) factory.getBean("car");
+       // System.out.println(car);
+
         System.out.println("现在开始关闭容器");
         ((ClassPathXmlApplicationContext) factory).registerShutdownHook();
     }

@@ -13,6 +13,9 @@ public class Car implements BeanFactoryAware, BeanNameAware, InitializingBean, D
 
     private String name;
     private int age;
+    static {
+        System.out.println("测试静态方法块--------------------------------");
+    }
 
     public Car() {
         System.out.println("我是构造器");

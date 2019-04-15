@@ -10,4 +10,5 @@ public interface Subject {
      int sellBooks();
 
      String speak();
+    int  earnMony();
 }
