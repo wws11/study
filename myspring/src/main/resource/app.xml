@@ -1,0 +1,73 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!-- bean 配置 -->
+    <bean id="springBean" class="com.gysoft.spring.springbean.SpringBean" scope="singleton" init-method="initMethod"
+          destroy-method="destoryMethod">
+
+        <!-- 构造方法 -->
+        <constructor-arg name="value" value="nameValue"/>
+
+        <!-- 字符串注入 -->
+        <property name="num" value="25"/>
+
+        <!-- list注入 -->
+        <property name="list">
+            <list>
+                <value>list01</value>
+                <value>list02</value>
+                <value>list03</value>
+            </list>
+        </property>
+
+        <!-- 数组注入 -->
+        <property name="strs">
+            <list>
+                <value>string01</value>
+                <value>string02</value>
+                <value>string03</value>
+            </list>
+        </property>
+
+        <!-- set注入 -->
+        <property name="set">
+            <set>
+                <value>set01</value>
+                <value>set02</value>
+                <value>set03</value>
+            </set>
+        </property>
+
+        <!-- properties注入 -->
+        <property name="pros">
+            <props>
+                <prop key="propkey01">propVal01</prop>
+                <prop key="propkey01">propVal02</prop>
+                <prop key="propkey01">propVal03</prop>
+            </props>
+        </property>
+
+        <!-- map注入 -->
+        <property name="map">
+            <map>
+                <entry key="mapkey01" value="mapvalue01"/>
+                <entry key="mapkey02" value="mapvalue02"/>
+                <entry key="mapkey03" value="mapvalue03"/>
+            </map>
+        </property>
+    </bean>
+
+    <!-- bean后处理器 类似于filter -->
+    <bean id="beanProcessor" class="com.gysoft.spring.springbean.BeanProcessor"/>
+
+    <!-- 包扫描 -->
+    <!-- <context:component-scan base-package="myspring"/> -->
+</beans>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="mongodbclient" />
         <module name="myspring" />
         <module name="note" />
       </profile>
@@ -15,7 +16,12 @@
       <module name="cas" target="1.5" />
       <module name="common-mybatis" target="1.5" />
       <module name="commonmybatis" target="1.5" />
+      <module name="dubboapi" target="1.7" />
+      <module name="dubboimpl" target="1.7" />
+      <module name="dubboserver" target="1.7" />
       <module name="es" target="1.5" />
+      <module name="spirngwebmvc" target="1.5" />
+      <module name="springwebmvc" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

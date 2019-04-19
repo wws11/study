@@ -8,11 +8,14 @@
     <artifactId>commonstudy</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>common-mybatis</module>
+
         <module>common-javase</module>
         <module>myspring</module>
         <module>common</module>
         <module>note</module>
+        <module>dubboserver</module>
+        <module>mongodb-client</module>
+
     </modules>
     <packaging>pom</packaging>
 

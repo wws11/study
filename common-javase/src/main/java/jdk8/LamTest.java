@@ -1,4 +1,3 @@
-/*
 package jdk8;
 
 
@@ -8,12 +7,6 @@ import org.junit.Test;
 import java.util.*;
 import java.util.stream.Collectors;
 
-*/
-/**
- * @Description
- * @Author DJZ-WWS
- * @Date 2019/3/4 13:51
- *//*
 
 public  final class LamTest {
 
@@ -25,7 +18,7 @@ private  String  name;
     public   void  test()
     {
 
-        LambdaDo  lambdaDo=new LambdaDo();
+
         LamTest one=null;
        Optional.ofNullable(one).orElseGet(LamTest::new).testOption();
         //one.testOption();//空指针
@@ -44,19 +37,15 @@ private  String  name;
 
     @Test
     public  void  testNUllPoint(){
-
+/*
         Person person = new Person();
 
 
         person=null;
         //  person.setAge(11);
-       */
-/* List<Person> personList=new ArrayList<>();
-        *//*
-*/
-/*  LambdaExceptionUtil.rethrowConsumer(*//*
-*/
-/*
+ List<Person> personList=new ArrayList<>();
+
+         LambdaExceptionUtil.rethrowConsumer(
         Optional.ofNullable(person).map(Person::getAge).ifPresent(age -> {
             System.out.println(age);
         });
@@ -67,10 +56,10 @@ private  String  name;
             System.out.println("ifPresent:"+e.getAge());
             System.out.println("ifPresent:"+e.getName());
         });
-*//*
+
 
         // person.print();   空指针
-        Optional.ofNullable(person).orElseGet(Person::new);// 供给型
+        Optional.ofNullable(person).orElseGet(Person::new);// 供给型*/
     }
 
     @Test
@@ -144,7 +133,7 @@ private  String  name;
     public  void testOptional(){
 
 
-        LambdaDo  lambdaDo=new LambdaDo();
+
         LamTest one=null;
         Optional.ofNullable(one).orElseGet(LamTest::new).testOption();
         //one.testOption();//空指针
@@ -159,4 +148,3 @@ private  String  name;
 
     }
 }
-*/

@@ -7,6 +7,7 @@ package design.strategy;
  */
 public class StrategyContext {
 
+
 private     Strategy  strategy;
 public   StrategyContext(Strategy strategy){
     this.strategy=strategy;
@@ -18,7 +19,6 @@ public   StrategyContext(Strategy strategy){
 策略方法
  */
 public  void  doStrategry(String msg){
-
 
     strategy.strategyInterface(msg);
 }
