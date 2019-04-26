@@ -1,32 +1,19 @@
-/*
 package jacob;
 
 
+import com.jacob.activeX.ActiveXComponent;
+import com.jacob.com.ComThread;
+import com.jacob.com.Dispatch;
+import com.jacob.com.Variant;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import javax.ws.rs.core.Variant;
 import java.io.File;
 
-*/
-/**
- * @Description
- * @Author DJZ-WWS
- * @Date 2019/2/19 16:37
- *//*
-
-;
-
-*/
-/**
- *
- * @ClassName: OfficeToPDF
- * @Description: 使用jacob转换office为pdf,也可以将txt文件转换为pdf.
- * @author ***************
- * @date 2015年9月21日 上午11:15:44
- *
- *//*
-
 public class OfficeToPDF {
+
+    private final static Logger logger = LoggerFactory.getLogger(OfficeToPDF.class);
 
     private static final int wdFormatPDF = 17;
     private static final int xlTypePDF = 0;
@@ -46,17 +33,14 @@ public class OfficeToPDF {
     @Test
     public  void convert2PDF(){
         long start = System.currentTimeMillis();
-        word2PDF("C:\\Users\\DELL\\Desktop\\80-1.wps","C:\\Users\\DELL\\Desktop\\a.pdf");
+        word2PDF("C:\\Users\\DELL\\Desktop\\6f5a5d56a2fa4c90b10d795d67f332d6.pptx","C:\\Users\\DELL\\Desktop\\a.pdf");
         long end = System.currentTimeMillis();
         System.out.println(end-start);
     }
-    @Test
-    public void testExcelToPDF(){
-        excel2PDF("C:\\Users\\DELL\\Desktop\\新建 XLSX 工作表.xlsx","C:\\Users\\DELL\\Desktop\\es.pdf");
-    }
+
     @Test
     public   void  testPPT2PDF(){
-        convert2PDF("C:\\Users\\DELL\\Desktop\\dd.ppt","C:\\Users\\DELL\\Desktop\\hello.pdf");
+        convert2PDF("C:\\Users\\DELL\\Desktop\\6f5a5d56a2fa4c90b10d795d67f332d6.pptx","C:\\Users\\DELL\\Desktop\\测试1.pdf");
     }
 
     //ppt转pdf
@@ -141,29 +125,23 @@ public class OfficeToPDF {
                     false//WithWindow指定文件是否可见
             ).toDispatch();
 
-            Dispatch.call(ppt,
+            Variant saveAs = Dispatch.call(ppt,
                     "SaveAs",
                     pdfFile,
                     ppSaveAsPDF
             );
+
 
             Dispatch.call(ppt, "Close");
 
             app.invoke("Quit");
             return true;
         }catch(Exception e){
+            e.printStackTrace();
             return false;
         }
     }
 
-
-
-
-
-    @Test
-    public void testPdf(){
-        wordToPDF("测试");
-    }
 
     public void wordToPDF(String docFileName){
 
@@ -211,7 +189,10 @@ public class OfficeToPDF {
 
 
 
-
+    @Test
+    public void testExcelToPDF(){
+        excel2PDF("C:\\Users\\DELL\\Desktop\\a5564ded3074c69672bab5c178ae850e.xlsx","C:\\Users\\DELL\\Desktop\\saaaa.pdf");
+    }
 
     public static boolean excel2PDF(String inputFile,String pdfFile){
         try{
@@ -224,11 +205,19 @@ public class OfficeToPDF {
                     false,
                     true
             ).toDispatch();
+            //设置打印属性并打印
+                      /* Dispatch.callN(excel,"PrintOut",new Object[]{Variant.VT_MISSING, Variant.VT_MISSING, new Integer(1),
+                                         new Boolean(false),"outlook", new Boolean(true),Variant.VT_MISSING, ""});*/
             Dispatch.call(excel,
-                    "ExportAsFixedFormat",
+                    "PrintOut",
                     xlTypePDF,
                     pdfFile
             );
+           /* Variant call = Dispatch.call(excel,
+                    "ExportAsFixedFormat",
+                    xlTypePDF,
+                    pdfFile, 0, false, true
+            );*/
             Dispatch.call(excel, "Close",false);
             app.invoke("Quit");
             return true;
@@ -237,9 +226,8 @@ public class OfficeToPDF {
         }
     }
 
-
-  */
-/*  public  void tt(){
+/*
+  public  void tt(){
          logger.info("启动Word..");
         long start = System.currentTimeMillis();
         ActiveXComponent app = null;
@@ -280,6 +268,6 @@ public class OfficeToPDF {
         }
         //如果没有这句话,winword.exe进程将不会关闭
         ComThread.Release();
-    }*//*
+    }*/
 
-}*/
+}

@@ -1,0 +1,100 @@
+/**
+     * @return
+     * @throws Exception
+     * @Author weiwensi
+     * @Description 文档转换  支持Word，excel PPT的转换
+     * @Date 15:34 2019/2/25
+     * @Param [sPath, toPath, suffix]
+     * @version 2.0
+     **/
+
+    private File docConvert(String sourcePath, String suffix,FileInfo fileInfo) throws Exception {
+        boolean wordFlag = suffix.equals("doc") || suffix.equals("docx") || suffix.equals("dot") || suffix.equals("txt") || suffix.equals("wps") || suffix.equals("rtf") || suffix.equals("docm");
+        boolean pptFlag = suffix.equals("ppt") || suffix.equals("pptx") || suffix.equals("pot") || suffix.equals("pps");
+        boolean excelFlag = suffix.equals("xls") || suffix.equals("xlsx");
+        ActiveXComponent app = null;
+        Dispatch doc = null;
+        Dispatch docs;
+        File pdfFile;
+        try {
+            logger.info("打开应用程序");
+            if (wordFlag) {
+                app = new ActiveXComponent("Word.Application");
+                docs = app.getProperty("Documents").toDispatch();
+                app.setProperty("Visible", false);
+            } else if (pptFlag) {
+                app = new ActiveXComponent("PowerPoint.Application");
+                docs = app.getProperty("Presentations").toDispatch();
+            } else if (excelFlag) {
+                app = new ActiveXComponent("Excel.Application");
+                //获得Excel中所有打开的文档,返回Documents对象
+                docs = app.getProperty("Workbooks").toDispatch();
+                app.setProperty("Visible", false);
+            } else {
+                throw new FileCovertException("文件格式不支持转换!");
+            }
+
+            //获得word中所有打开的文档,返回Documents对象
+            //调用Documents对象中Open方法打开文档，并返回打开的文档对象Document
+            logger.info("打开文档....");
+            doc = Dispatch.call(docs,
+                    "Open",
+                    sourcePath,
+                    false,
+                    true
+            ).toDispatch();
+
+            String pdfPathNoSuffix = fileConfig.selfAdaptionCovertPdfAddr();
+
+            StringBuilder pathBuilder = new StringBuilder();
+            String toPathHaveSuffix = pathBuilder.append(pdfPathNoSuffix).append("\\").append(fileInfo.getFileId()).append(".pdf").toString();
+
+            logger.info("转换文档到PDF..." + toPathHaveSuffix);
+
+            if (wordFlag) {
+                Dispatch.call(doc,
+                        "SaveAs",
+                        toPathHaveSuffix,
+                        JacobConstant.WDFORMATPDF
+                );
+            } else if (pptFlag) {
+                Dispatch.call(doc,
+                        "SaveAs",
+                        toPathHaveSuffix,
+                        JacobConstant.PPSAVEASPDF
+                );
+            } else {
+                Dispatch.call(doc,
+                        "ExportAsFixedFormat",
+                        JacobConstant.XLTYPEPDF,
+                        toPathHaveSuffix
+                );
+            }
+            logger.info("文件另存为");
+            pdfFile = new File(toPathHaveSuffix);
+        } catch (Throwable e) {
+            e.printStackTrace();
+            throw new FileCovertException("Error:文档转换失败：",e);
+        } finally {
+            //关闭文档   ppt关闭文档需要两个参数，其他两种情况需要三个
+            if(wordFlag||excelFlag){
+                Dispatch.call(doc, "Close",false);
+            }else if(pptFlag){
+                Dispatch.call(doc, "Close");
+            }
+
+            logger.info("关闭文档");
+            //关闭word应用程序
+            if (app != null&&wordFlag) {
+                app.invoke("Quit", new Variant[]{});
+            }
+            if(app!=null&&(pptFlag||excelFlag)){
+                app.invoke("Quit");
+            }
+            //如果不调用这句话windWord.exe进程将不会关闭
+            ComThread.Release();
+        }
+
+
+        return pdfFile;
+    }

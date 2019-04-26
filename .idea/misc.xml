@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/com.gysoft.cas" />
     <file type="web" url="file://$PROJECT_DIR$/dubboserver" />
     <file type="web" url="file://$PROJECT_DIR$/myspring" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitmq" />
     <file type="web" url="file://$PROJECT_DIR$/spring-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-webmvc" />
   </component>
@@ -11,11 +13,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/listendemmo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cas/pom.xml" />
+        <option value="$PROJECT_DIR$/com.gysoft.cas/pom.xml" />
         <option value="$PROJECT_DIR$/common-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/dubboserver/dubboapi/pom.xml" />
         <option value="$PROJECT_DIR$/dubboserver/dubboimpl/pom.xml" />

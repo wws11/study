@@ -5,17 +5,34 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="cas:war exploded" />
       <artifact name="springwebmvc:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Outter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/StaticOutter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/LogImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/LogParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-javase/src/main/java/bettercode/ibjKey/KeyMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listendemmo/src/main/java/com/gysoft/listen/ScheduleListen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/resource/applicationContext-rabbitmq-recep.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/resource/applicationContext-rabbitmq-send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-javase/target/classes/common/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/target/classes/common/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/dubboapi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/dubboapi/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/dubboapi/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/dubboimpl/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/dubboimpl/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/dubboimpl/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboserver/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,6 +52,9 @@
     <ignored path="$PROJECT_DIR$/dubboserver/dubboapi/target/" />
     <ignored path="$PROJECT_DIR$/dubboserver/dubboimpl/target/" />
     <ignored path="$PROJECT_DIR$/mongodb-client/target/" />
+    <ignored path="$PROJECT_DIR$/listendemmo/target/" />
+    <ignored path="$PROJECT_DIR$/com.gysoft.cas/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,110 +66,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/mogo/MongoSpringTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="121">
+              <caret line="192" column="22" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6209#6210#0" expanded="true" />
+                <element signature="e#6339#6340#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Circle.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Outter.java">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/TestException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="340">
+              <caret line="26" column="57" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/note.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Sequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/People.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/StaticOutter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/jdbcTemplate.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/application.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/BeanProcessor.java">
+        <entry file="file://$PROJECT_DIR$/mongodb-client/src/main/java/com/gysoft/Mongo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jacob/DocFmtConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#2712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jacob/convert">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/applicationContext-rabbitmq-send.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/applicationContext-rabbitmq-recep.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5355">
+              <caret line="315" column="21" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -160,6 +174,7 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -194,6 +209,7 @@
       <find>flatmap</find>
       <find>TestDb</find>
       <find>mqtt</find>
+      <find>jacob</find>
     </findStrings>
     <replaceStrings>
       <replace>new FileWriter(random+&quot;.txt&quot;)</replace>
@@ -210,27 +226,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-webmvc/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/hello/HellControlller.java" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/ff.xml" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/jdbcTemplate.xml" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/application-web.xml" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/app/SpringApplicationContext.java" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/bean/Person.java" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/mapper/personMapper.xml" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/mapper/PersonMapper.java" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/service/PersonService.java" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/dao/personMapper.xml" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/service/PersonServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/springmvc.xml" />
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/webapp/WEB-INF/page/hello.jsp" />
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/application-spring.xml" />
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/controller/PersonController.java" />
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/test/TestDb.java" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/log4j.properties" />
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/applicationweb.xml" />
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/resource/application-mybatis.xml" />
@@ -241,7 +241,6 @@
         <option value="$PROJECT_DIR$/dubboserver/pom.xml" />
         <option value="$PROJECT_DIR$/dubboserver/dubboapi/pom.xml" />
         <option value="$PROJECT_DIR$/dubboserver/dubboimpl/pom.xml" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/jacob/DocFmtConvert.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/tools/SortTools.java" />
         <option value="$PROJECT_DIR$/mongodb-client/src/main/java/com/gysoft/Mongo.java" />
@@ -261,6 +260,23 @@
         <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Outter.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/note.md" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Sequence.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/LogoParm.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/TestAnnotation.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/LogParm.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/LogImpl.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/ibjKey/KeyMapTest.java" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/common/Person.java" />
+        <option value="$PROJECT_DIR$/listendemmo/src/main/java/com/gysoft/ListendemmoApplication.java" />
+        <option value="$PROJECT_DIR$/listendemmo/src/main/java/com/gysoft/listen/ScheduleListen.java" />
+        <option value="$PROJECT_DIR$/com.gysoft.cas/pom.xml" />
+        <option value="$PROJECT_DIR$/com.gysoft.cas/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/com.gysoft.cas/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/resource/applicationContext-rabbitmq-send.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/resource/applicationContext-rabbitmq-recep.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/jacob/convert" />
+        <option value="$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java" />
       </list>
     </option>
   </component>
@@ -299,9 +315,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1908" />
-    <option name="y" value="407" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="404" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -313,60 +329,15 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bettercode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="common-javase" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bettercode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="innerClass" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555912886306" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mystudy" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556265558060" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹/rabbitmqdemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -375,14 +346,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\commonstudy\spring-webmvc\src\main\java\com\gysoft\dao" />
-      <recent name="F:\commonstudy\cas" />
-      <recent name="F:\commonstudy\common" />
-      <recent name="F:\commonstudy\myspring\src\main\resource" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gysoft" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\commonstudy\spring-webmvc" />
+      <recent name="F:\commonstudy\spring-webmvc\src\main\resource" />
+      <recent name="F:\commonstudy\common-javase\src\main\java\test" />
+      <recent name="F:\commonstudy\common-javase\src\main\java\design\abstractfactory" />
+      <recent name="F:\commonstudy\common-javase\src\main\java\javaconcurrencyinPractice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gysoft.app" />
@@ -391,12 +364,11 @@
       <recent name="gytest.my" />
       <recent name="common" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\commonstudy\spring-webmvc" />
-      <recent name="F:\commonstudy\spring-webmvc\src\main\resource" />
-      <recent name="F:\commonstudy\common-javase\src\main\java\test" />
-      <recent name="F:\commonstudy\common-javase\src\main\java\design\abstractfactory" />
-      <recent name="F:\commonstudy\common-javase\src\main\java\javaconcurrencyinPractice" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\commonstudy\spring-webmvc\src\main\java\com\gysoft\dao" />
+      <recent name="F:\commonstudy\cas" />
+      <recent name="F:\commonstudy\common" />
+      <recent name="F:\commonstudy\myspring\src\main\resource" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,13 +383,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Circle">
-    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bettercode.innerClass.Circle" />
+  <component name="RunManager" selected="JUnit.OfficeToPDF.testExcelToPDF">
+    <configuration name="KeyMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bettercode.ibjKey.KeyMapTest" />
       <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bettercode.innerClass.*" />
+          <option name="PATTERN" value="bettercode.ibjKey.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bettercode.innerClass.OutClass" />
+    <configuration name="TestAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bettercode.annotation.TestAnnotation" />
       <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bettercode.innerClass.*" />
+          <option name="PATTERN" value="bettercode.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,55 +410,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoSpringTest.getAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myspring" />
+    <configuration name="OfficeToPDF.convert2PDF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gysoft.spring.mogo.*" />
+          <option name="PATTERN" value="jacob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gysoft.spring.mogo" />
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.mogo.MongoSpringTest" />
-      <option name="METHOD_NAME" value="getAllUser" />
+      <option name="PACKAGE_NAME" value="jacob" />
+      <option name="MAIN_CLASS_NAME" value="jacob.OfficeToPDF" />
+      <option name="METHOD_NAME" value="convert2PDF" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoSpringTest.queryWithCriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myspring" />
+    <configuration name="OfficeToPDF.testExcelToPDF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gysoft.spring.mogo.*" />
+          <option name="PATTERN" value="jacob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gysoft.spring.mogo" />
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.mogo.MongoSpringTest" />
-      <option name="METHOD_NAME" value="queryWithCriter" />
+      <option name="PACKAGE_NAME" value="jacob" />
+      <option name="MAIN_CLASS_NAME" value="jacob.OfficeToPDF" />
+      <option name="METHOD_NAME" value="testExcelToPDF" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoSpringTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myspring" />
+    <configuration name="OfficeToPDF.testPPT2PDF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gysoft.spring.mogo.*" />
+          <option name="PATTERN" value="jacob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gysoft.spring.mogo" />
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.mogo.MongoSpringTest" />
-      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="PACKAGE_NAME" value="jacob" />
+      <option name="MAIN_CLASS_NAME" value="jacob.OfficeToPDF" />
+      <option name="METHOD_NAME" value="testPPT2PDF" />
       <option name="TEST_OBJECT" value="method" />
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="visualVMId" value="163222655655900" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListendemmoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="listendemmo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gysoft.ListendemmoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/cas-client" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="springwebmvc:war exploded">
@@ -494,10 +477,15 @@
             <option name="CONTEXT_PATH" value="/hello" />
           </settings>
         </artifact>
+        <artifact name="cas:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/cas_war_exploded" />
+          </settings>
+        </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_commonstudy" />
-        <option name="HTTP_PORT" value="8081" />
+        <option name="HTTP_PORT" value="8090" />
         <option name="JNDI_PORT" value="1090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -591,24 +579,26 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="springwebmvc:war exploded" />
+          <artifact name="cas:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MongoSpringTest.testAddUser" />
-      <item itemvalue="JUnit.MongoSpringTest.getAllUser" />
-      <item itemvalue="JUnit.MongoSpringTest.queryWithCriter" />
+      <item itemvalue="Application.TestAnnotation" />
+      <item itemvalue="Application.KeyMapTest" />
+      <item itemvalue="JUnit.OfficeToPDF.testPPT2PDF" />
+      <item itemvalue="JUnit.OfficeToPDF.convert2PDF" />
+      <item itemvalue="JUnit.OfficeToPDF.testExcelToPDF" />
+      <item itemvalue="Spring Boot.ListendemmoApplication" />
       <item itemvalue="Tomcat Server.Tomcat 8" />
-      <item itemvalue="Application.OutClass" />
-      <item itemvalue="Application.Circle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.OutClass" />
-        <item itemvalue="JUnit.MongoSpringTest.queryWithCriter" />
-        <item itemvalue="JUnit.MongoSpringTest.getAllUser" />
-        <item itemvalue="JUnit.MongoSpringTest.testAddUser" />
+        <item itemvalue="JUnit.OfficeToPDF.testExcelToPDF" />
+        <item itemvalue="JUnit.OfficeToPDF.testPPT2PDF" />
+        <item itemvalue="JUnit.OfficeToPDF.convert2PDF" />
+        <item itemvalue="Application.KeyMapTest" />
+        <item itemvalue="Application.TestAnnotation" />
       </list>
     </recent_temporary>
   </component>
@@ -659,7 +649,14 @@
       <workItem from="1555588903634" duration="583000" />
       <workItem from="1555633718398" duration="597000" />
       <workItem from="1555635883568" duration="8635000" />
-      <workItem from="1555896851683" duration="6248000" />
+      <workItem from="1555896851683" duration="9222000" />
+      <workItem from="1555936964184" duration="2846000" />
+      <workItem from="1555984999954" duration="3154000" />
+      <workItem from="1556021960610" duration="1528000" />
+      <workItem from="1556066623091" duration="709000" />
+      <workItem from="1556097296951" duration="639000" />
+      <workItem from="1556154105464" duration="15338000" />
+      <workItem from="1556265863074" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1554118744879</created>
@@ -672,39 +669,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MongoSpringTest_testAddUser - 2019.04.19 at 17h 05m 41s.xml">
-      <configuration name="MongoSpringTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 16m 27s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_testAddUser - 2019.04.19 at 17h 07m 33s.xml">
-      <configuration name="MongoSpringTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 17m 20s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_testAddUser - 2019.04.19 at 17h 08m 08s.xml">
-      <configuration name="MongoSpringTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 18m 46s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_testAddUser - 2019.04.19 at 17h 08m 55s.xml">
-      <configuration name="MongoSpringTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 21m 41s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_testAddUser - 2019.04.19 at 17h 13m 30s.xml">
-      <configuration name="MongoSpringTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 22m 51s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_testAddUser - 2019.04.19 at 17h 14m 49s.xml">
-      <configuration name="MongoSpringTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 24m 10s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_testAddUser - 2019.04.19 at 17h 16m 58s.xml">
-      <configuration name="MongoSpringTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 24m 43s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_testAddUser - 2019.04.19 at 17h 21m 16s.xml">
-      <configuration name="MongoSpringTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 25m 32s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_getAllUser - 2019.04.19 at 17h 23m 24s.xml">
-      <configuration name="MongoSpringTest.getAllUser" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 27m 01s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoSpringTest_queryWithCriter - 2019.04.19 at 17h 32m 36s.xml">
-      <configuration name="MongoSpringTest.queryWithCriter" configurationId="JUnit" />
+    <history-entry file="OfficeToPDF_testExcelToPDF - 2019.04.26 at 15h 50m 07s.xml">
+      <configuration name="OfficeToPDF.testExcelToPDF" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257427000" />
+    <option name="totallyTimeSpent" value="285304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,10 +713,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1908" y="407" width="1936" height="1056" extended-state="1" />
+    <frame x="1912" y="404" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.30277187" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.31842387" />
       <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.3370607" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -728,21 +725,21 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49946752" weight="0.69372296" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49946752" weight="0.4298056" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4199134" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.41900647" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" weight="0.32792208" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5005325" side_tool="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32937366" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32683983" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3261339" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32900432" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32900432" />
       <window_info anchor="bottom" id="Run with VisualVM" order="14" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="15" weight="0.32937366" />
       <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32937366" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.32960597" />
@@ -883,174 +880,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/resource/applicationContext-trans.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/test/TestDb.java" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/resource/application-service.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/resource/mybatis-config.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/resource/applicationweb.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/resource/jdbc.properties" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/dao/PersonMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/resource/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/dao/PersonMapper.java" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/controller/HellControlller.java" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/java/com/gysoft/controller/PersonController.java" />
-    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/resource/application-dao.xml" />
-    <entry file="file://$PROJECT_DIR$/ssm/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboserver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboserver/dubboapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboserver/dubboimpl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/tools/SortTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="9" selection-end-line="285" />
-          <folding>
-            <element signature="e#0#8546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jacob/DocFmtConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="3" selection-end-line="102" />
-          <folding>
-            <element signature="e#0#2712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.3/mongo-java-driver-3.4.3.jar!/com/mongodb/client/FindIterable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb-client/src/main/java/com/gysoft/Mongo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1863#1873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb-client/src/main/resources/applicaiton.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/mogo/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyInstantiationAwareBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/app.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -1107,10 +936,172 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/OutClass.java" />
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/mogo/MongoSpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Outter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/LogoParm.java" />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/TestAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/LogImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/StaticOutter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/jdbcTemplate.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/SqlNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/ibjKey/KeyMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listendemmo/src/main/java/com/gysoft/ListendemmoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.gysoft.cas/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/com.gysoft.cas/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/com.gysoft.cas/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/listendemmo/src/main/java/com/gysoft/listen/ScheduleListen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/jdbcTemplate/JdbcTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springtools/SpringApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/common/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/annotation/LogParm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/CodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1128,82 +1119,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/OutClass.java">
+    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/bean/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/mogo/MongoSpringTest.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-220" />
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jacob/jacob/1.19/jacob-1.19.jar!/com/jacob/com/Dispatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/People.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/StaticOutter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Circle.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LambdaExceptionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/gysoft/mq.java" />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jacob/OfficeToPDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="192" column="22" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
           <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6209#6210#0" expanded="true" />
+            <element signature="e#6339#6340#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Outter.java">
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jdk8/TestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/bettercode/innerClass/Sequence.java">
+    <entry file="file://$PROJECT_DIR$/mongodb-client/src/main/java/com/gysoft/Mongo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="153">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jacob/DocFmtConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#0#2712#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/jacob/convert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/applicationContext-rabbitmq-send.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/applicationContext-rabbitmq-recep.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5355">
+          <caret line="315" column="21" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1259,11 +1281,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>commonstudy</last-edited>
+          <last-edited>cas</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1283,7 +1306,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.springframework:spring-expression:4.3.7.RELEASE</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

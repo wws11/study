@@ -1,6 +1,7 @@
 package common;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 /**
  * @Description
@@ -49,7 +50,7 @@ public class Person implements Serializable {
         System.out.println("122444");
     }
 
-  /*  @Override
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -61,5 +62,5 @@ public class Person implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(name, age);
-    }*/
+    }
 }

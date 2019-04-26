@@ -7,13 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="listendemmo" />
         <module name="mongodbclient" />
         <module name="myspring" />
         <module name="note" />
+        <module name="rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cas" target="1.5" />
+      <module name="cas" target="1.7" />
       <module name="common-mybatis" target="1.5" />
       <module name="commonmybatis" target="1.5" />
       <module name="dubboapi" target="1.7" />
