@@ -71,7 +71,6 @@ private  String  name;
         map.put("1",person);
         System.out.println(  map.get("1"));
         // map.get("1").print();   空指针
-
         Optional.ofNullable(map.get("1")).orElseGet(Person::new).print();   //没问题
 
         //list映射成map
@@ -80,7 +79,7 @@ private  String  name;
         person.setName("tom");
         persons.add(person);
         Map<String, Person> namePersionMap = persons.stream().collect(Collectors.toMap(Person::getName, e -> e));
-
+        Map<String, Integer> integerMap = persons.stream().collect(Collectors.toMap(Person::getName, Person::getAge));
     }
 
 
@@ -132,16 +131,13 @@ private  String  name;
     @Test
     public  void testOptional(){
 
-
-
         LamTest one=null;
         Optional.ofNullable(one).orElseGet(LamTest::new).testOption();
         //one.testOption();//空指针
 
-
         Person person = new Person();
         person=null;
-        String name = Optional.ofNullable(person).orElseGet(Person::new).getName();
+        String name = Optional.ofNullable(person).orElseGet(Person::new).getName(); //利用Optional进行空指针判断
         System.out.println("name"+name);
         //String s = Optional.ofNullable(person).orElseGet(Person::new).getName();
 

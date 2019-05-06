@@ -20,6 +20,7 @@ private   Singleton(){
      * @return
      */
     public  static final  Singleton getInstance(){
+        System.out.println("haha");
     return  SingleHolder.INSTANCE;
 }
 }

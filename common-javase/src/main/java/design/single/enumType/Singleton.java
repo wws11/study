@@ -1,6 +1,6 @@
 package design.single.enumType;
 
-/**
+/**   在jdk1.5之后 第三种方式
  * Create by wws on 2019/2/28
  */
 public enum Singleton  implements MySingleton {

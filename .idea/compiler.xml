@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="listendemmo" />
+        <module name="log4jdemo" />
         <module name="mongodbclient" />
         <module name="myspring" />
         <module name="note" />

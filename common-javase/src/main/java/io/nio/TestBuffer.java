@@ -24,7 +24,7 @@ import java.nio.ByteBuffer;
  * 二、缓冲区存取数据的两个核心方法：
  * put() : 存入数据到缓冲区中
  * get() : 获取缓冲区中的数据
- * 
+ *
  * 三、缓冲区中的四个核心属性：
  * capacity : 容量， 。一旦声明不能改变。
  * limit : 界限，表示缓冲区中可以操作数据的大小。（limit 后数据不能进行读写）
@@ -89,7 +89,7 @@ public class TestBuffer {
 		//1. 分配一个指定大小的缓冲区
 		ByteBuffer buf = ByteBuffer.allocate(1024);
 		System.out.println("-----------------allocate()----------------");
-		System.out.println(buf.position());
+		System.out.println("当前缓冲区的位置"+buf.position());
 		System.out.println(buf.limit());
 		System.out.println(buf.capacity());
 		

@@ -1,8 +1,9 @@
 package design.strategy;
 
 /**
- * Create by wws on 2019/2/26  策略类
+ * 策略类
  */
+
 public interface Strategy {
 
 

@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.io.IOException;
 
 public class OfficeToPDF {
 
@@ -39,12 +40,12 @@ public class OfficeToPDF {
     }
 
     @Test
-    public   void  testPPT2PDF(){
+    public   void  testPPT2PDF() throws IOException {
         convert2PDF("C:\\Users\\DELL\\Desktop\\6f5a5d56a2fa4c90b10d795d67f332d6.pptx","C:\\Users\\DELL\\Desktop\\测试1.pdf");
     }
 
     //ppt转pdf
-    public static boolean convert2PDF(String inputFile, String pdfFile) {
+    public static boolean convert2PDF(String inputFile, String pdfFile) throws IOException {
         String suffix =  getFileSufix(inputFile);
         File file = new File(inputFile);
         if(!file.exists()){
@@ -190,12 +191,17 @@ public class OfficeToPDF {
 
 
     @Test
-    public void testExcelToPDF(){
+    public void testExcelToPDF() throws IOException {
         excel2PDF("C:\\Users\\DELL\\Desktop\\a5564ded3074c69672bab5c178ae850e.xlsx","C:\\Users\\DELL\\Desktop\\saaaa.pdf");
     }
 
-    public static boolean excel2PDF(String inputFile,String pdfFile){
-        try{
+    public static boolean excel2PDF(String inputFile,String pdfFile) throws IOException {
+
+     //文件的校验
+
+
+            try{
+            ComThread.InitSTA();
             ActiveXComponent app = new ActiveXComponent("Excel.Application");
             app.setProperty("Visible", false);
             Dispatch excels = app.getProperty("Workbooks").toDispatch();
@@ -206,10 +212,11 @@ public class OfficeToPDF {
                     true
             ).toDispatch();
             //设置打印属性并打印
-                      /* Dispatch.callN(excel,"PrintOut",new Object[]{Variant.VT_MISSING, Variant.VT_MISSING, new Integer(1),
+                      /* Dispatch.callN(excel,"PrintOut",new Object[]{Variant.VT_MISSING, Variant.VT_MISSING,  new Integer(1),
                                          new Boolean(false),"outlook", new Boolean(true),Variant.VT_MISSING, ""});*/
             Dispatch.call(excel,
-                    "PrintOut",
+                    "ExportAsFixedFormat",
+
                     xlTypePDF,
                     pdfFile
             );
@@ -222,6 +229,8 @@ public class OfficeToPDF {
             app.invoke("Quit");
             return true;
         }catch(Exception e){
+            ComThread.Release();
+            e.printStackTrace();
             return false;
         }
     }
@@ -269,5 +278,9 @@ public class OfficeToPDF {
         //如果没有这句话,winword.exe进程将不会关闭
         ComThread.Release();
     }*/
+
+
+
+
 
 }

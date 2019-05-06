@@ -15,8 +15,6 @@ import java.util.function.Supplier;
  * @Date 2019/4/8 9:25
  */
 public class CutIfElse {
-
-
     //   测试Function 函数式接口的使用
     @Test
     public void test1(){
@@ -29,7 +27,6 @@ public class CutIfElse {
 
         //Function<T,R>     R apply(T t);    接受一个T返回一个R
         Map<Integer, Function<Integer,Person >> map=new HashMap<>();
-
         map.put(1,e->{
            Person person = new Person();
             person.setName("jdk8");

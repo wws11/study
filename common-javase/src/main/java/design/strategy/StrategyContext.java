@@ -15,12 +15,12 @@ public   StrategyContext(Strategy strategy){
 
 
 
-/*
-策略方法
- */
-public  void  doStrategry(String msg){
+    /*
+    策略方法
+     */
+    public  void  doStrategry(String msg){
 
-    strategy.strategyInterface(msg);
-}
+        strategy.strategyInterface(msg);
+    }
 
 }

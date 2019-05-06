@@ -17,6 +17,7 @@
         <module>mongodb-client</module>
         <module>com.gysoft.cas</module>
         <module>rabbitmq</module>
+        <module>log4jdemo</module>
 
     </modules>
     <packaging>pom</packaging>
