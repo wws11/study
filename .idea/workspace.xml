@@ -11,34 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75baedf2-1ae3-4982-901e-b98eb77db67d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/BeanPostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/InstantionAwaredBeanPostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/MyBeanPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/OneBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/OtherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/proxy/CglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/Other.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/resource/beanpost.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/src/main/resource/instantionAwareBeanPostProcessor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springioc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springioc/src/main/java/com/gysoft/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springioc/src/main/java/com/gysoft/OneBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springioc/src/main/resources/ioc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanPostProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyInstantiationAwareBeanPostProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/BeanProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/BeanProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/resource/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/resource/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/target/classes/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/target/classes/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/target/classes/com/gysoft/spring/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/target/classes/com/gysoft/spring/MyBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/target/classes/com/gysoft/spring/MyBeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/target/classes/com/gysoft/spring/MyInstantiationAwareBeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/target/classes/com/gysoft/spring/TestSpring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/thread/SaveJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DBAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/resource/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DBAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DBAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/producter/Producter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/producter/Producter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/resource/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,111 +66,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/BeanPostTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="36" selection-start-line="14" selection-end-line="17" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/MyInstantiationAwareBeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/OtherTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/proxy/CglibProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-javase/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DBAppender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-663" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/instantionAwareBeanPostProcessor.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="60" column="58" lean-forward="true" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/MyBeanPost.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.4.RELEASE/spring-context-4.1.4.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="446" column="79" lean-forward="true" selection-start-line="446" selection-start-column="79" selection-end-line="446" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/proxy/cglib/CglibProxy.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="142">
+              <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/InstantionAwaredBeanPostTest.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/OneBean.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/spring-rabbitmq-publish_subscrible.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="244">
+              <caret line="58" column="70" lean-forward="true" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -252,15 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/resource/spring-rabbitmq-publish_subscrible.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer2.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/demo/publish/EmitLog.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/config/MqConfig.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/ThreadPoolExecutorFactory.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/SpringApplicationContext.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/MqListen.java" />
-        <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/TestMap.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/CutIfElse.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/jdk8/LamTest.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/design/strategy/Strategy.java" />
@@ -277,11 +188,9 @@
         <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/constractbuild/Nutritions.java" />
         <option value="$PROJECT_DIR$/common-javase/src/main/java/bettercode/constractbuild/BuildTest.java" />
         <option value="$PROJECT_DIR$/log4jdemo/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/LogService.java" />
         <option value="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DemoTest.java" />
         <option value="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/Log.java" />
         <option value="$PROJECT_DIR$/log4jdemo/pom.xml" />
-        <option value="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DBAppender.java" />
         <option value="$PROJECT_DIR$/myspring/src/main/resource/application.xml" />
         <option value="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java" />
         <option value="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/SpringBean.java" />
@@ -303,6 +212,17 @@
         <option value="$PROJECT_DIR$/myspring/src/main/resource/instantionAwareBeanPostProcessor.xml" />
         <option value="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/InstantionAwaredBeanPostTest.java" />
         <option value="$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/OtherTest.java" />
+        <option value="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/LogService.java" />
+        <option value="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/thread/SaveJob.java" />
+        <option value="$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DBAppender.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DemoTest.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/resource/log4j.properties" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/LogConsume.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/producter/Producter.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/Log.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/resource/spring-rabbitmq-publish_subscrible.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DBAppender.java" />
       </list>
     </option>
   </component>
@@ -356,13 +276,152 @@
     <panes>
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="log4jdemo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="log4jdemo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="log4jdemo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="log4jdemo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="log4jdemo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="log4jdemo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gysoft" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="log4jdemo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rabbitmq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rabbitmq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="consumer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rabbitmq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rabbitmq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="log" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rabbitmq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="log" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rabbitmq" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resource" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557218854561" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557236555215" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹/spring-framework" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -384,11 +443,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\commonstudy\rabbitmq\src\main\resource" />
+      <recent name="F:\commonstudy\rabbitmq\src\main\java\com\rabbitmq\log" />
       <recent name="F:\commonstudy\myspring\src\main\resource" />
       <recent name="F:\commonstudy\springioc\src\main\resources" />
       <recent name="F:\commonstudy\rabbitmq\src\main\java\com\rabbitmq\demo" />
-      <recent name="F:\commonstudy\rabbitmq\src\main\java\com\rabbitmq\producter" />
-      <recent name="F:\commonstudy\rabbitmq\src\main\java\com\rabbitmq\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gysoft.spring.beanpost.proxy" />
@@ -413,20 +472,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InstantionAwaredBeanPostTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.App" />
-      <module name="springioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gysoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DemoTest (1)">
     <configuration name="CglibMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.proxy.cglib.CglibMainTest" />
       <module name="common-javase" />
@@ -440,12 +486,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstantionAwaredBeanPostTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.beanpost.InstantionAwaredBeanPostTest" />
-      <module name="myspring" />
+    <configuration name="DemoTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rabbitmq.log.demo.DemoTest" />
+      <module name="rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gysoft.spring.beanpost.*" />
+          <option name="PATTERN" value="com.rabbitmq.log.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -453,12 +499,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.springbean.Main" />
+    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gysoft.demo.DemoTest" />
+      <module name="log4jdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gysoft.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstantionAwaredBeanPostTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gysoft.spring.beanpost.InstantionAwaredBeanPostTest" />
       <module name="myspring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gysoft.spring.springbean.*" />
+          <option name="PATTERN" value="com.gysoft.spring.beanpost.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -602,21 +661,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.App" />
       <item itemvalue="Spring Boot.ListendemmoApplication" />
       <item itemvalue="Tomcat Server.Tomcat 8" />
       <item itemvalue="Application.InstantionAwaredBeanPostTest" />
       <item itemvalue="Application.CglibMainTest" />
       <item itemvalue="Application.OtherTest" />
+      <item itemvalue="Application.DemoTest" />
+      <item itemvalue="Application.DemoTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoTest (1)" />
+        <item itemvalue="Application.DemoTest" />
         <item itemvalue="Application.InstantionAwaredBeanPostTest" />
         <item itemvalue="Application.OtherTest" />
         <item itemvalue="Application.CglibMainTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -688,7 +747,7 @@
       <workItem from="1557125750560" duration="10804000" />
       <workItem from="1557142110372" duration="588000" />
       <workItem from="1557145736295" duration="10425000" />
-      <workItem from="1557194950073" duration="14682000" />
+      <workItem from="1557194950073" duration="26428000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1554118744879</created>
@@ -733,7 +792,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379801000" />
+    <option name="totallyTimeSpent" value="391547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,8 +805,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="404" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.28938907" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.28938907" />
       <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.3370607" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -759,17 +819,17 @@
       <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49946752" weight="0.4371524" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.41824248" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" weight="0.32666665" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.41824248" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" weight="0.3259177" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5005325" side_tool="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3288889" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32814237" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32480535" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32900432" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32937366" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32937366" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="14" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="14" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="15" weight="0.32937366" />
       <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32937366" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -882,7 +942,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DBAppender.java</url>
-          <line>51</line>
+          <line>55</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -909,6 +969,18 @@
           <line>41</line>
           <properties />
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DemoTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -967,216 +1039,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DBAppender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/Car.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1615">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/gysoft/rabbit/RabbitMqUtils/1.0.0/RabbitMqUtils-1.0.0.jar!/com/gysoft/rabbit/service/RabbitMqService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#1883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/config/RabbitMQ.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/ThreadPoolExecutorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/SpringApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyInstantiationAwareBeanPostProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/TestSpring.java" />
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/bean/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springtools/SpringApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanFactory.java" />
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/MyBeanPostProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/SpringBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="e#2059#2060#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.9.RELEASE/spring-beans-4.0.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-534">
-          <caret line="454" column="28" selection-start-line="454" selection-start-column="16" selection-end-line="454" selection-end-column="28" />
-          <folding>
-            <element signature="e#16432#16433#0" expanded="true" />
-            <element signature="e#16474#16475#0" expanded="true" />
-            <element signature="e#16510#16511#0" expanded="true" />
-            <element signature="e#16547#16548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/Other.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/1.0/spring-context-1.0.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springioc/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springioc/src/main/resources/ioc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springioc/src/main/java/com/gysoft/OneBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/beanpost.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springioc/src/main/java/com/gysoft/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/single/enumType/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-end-line="24" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/springbean/BeanProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-javase/src/main/java/design/single/enumType/MySingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1273,7 +1135,7 @@
     <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/OneBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
@@ -1286,7 +1148,7 @@
     <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/MyBeanPost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1306,14 +1168,14 @@
     <entry file="file://$PROJECT_DIR$/myspring/src/main/resource/instantionAwareBeanPostProcessor.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/OtherTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1330,7 +1192,7 @@
     <entry file="file://$PROJECT_DIR$/myspring/src/main/java/com/gysoft/spring/beanpost/InstantionAwaredBeanPostTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1347,7 +1209,234 @@
     <entry file="file://$PROJECT_DIR$/common-javase/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663" />
+        <state relative-caret-position="-533" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="274" column="13" selection-start-line="274" selection-start-column="13" selection-end-line="274" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gysoft/MyListen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/thread/SaveJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DBAppender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2588#2931#0" expanded="true" />
+            <element signature="e#2930#2931#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2134#2135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/MqListen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/DemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4jdemo/src/main/java/com/gysoft/demo/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/thread/SaveJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/LogConsume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/controller/PublishSubscribleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/controller/TopicsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/producter/Producter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/controller/RoutingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.4.0.RELEASE/spring-amqp-1.4.0.RELEASE.jar!/org/springframework/amqp/core/MessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/resource/spring-rabbitmq-publish_subscrible.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="58" column="70" lean-forward="true" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/consumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/IdentityHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="518" column="13" selection-start-line="518" selection-start-column="13" selection-end-line="518" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ApplicationShutdownHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="238" column="43" selection-start-line="238" selection-start-column="43" selection-end-line="238" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.4.RELEASE/spring-context-4.1.4.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="446" column="79" lean-forward="true" selection-start-line="446" selection-start-column="79" selection-end-line="446" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/log/demo/DBAppender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="60" column="58" lean-forward="true" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        </state>
       </provider>
     </entry>
   </component>

@@ -1,0 +1,36 @@
+2019-05-06 15:41:42 ERROR DemoTest:22 - Demoe Test  ----error
+2019-05-06 15:41:42 FATAL DemoTest:29 - DemoTest -----fatal
+2019-05-06 15:41:51 ERROR DemoTest:21 - Demoe Test  ----error
+2019-05-06 15:41:51 FATAL DemoTest:28 - DemoTest -----fatal
+2019-05-06 15:42:38 ERROR DemoTest:21 - Demoe Test  ----error
+2019-05-06 15:42:38 FATAL DemoTest:28 - DemoTest -----fatal
+2019-05-06 15:55:14 ERROR DemoTest:21 - Demoe Test  ----error
+2019-05-06 16:00:02 FATAL DemoTest:28 - DemoTest -----fatal
+2019-05-06 16:00:04 ERROR DemoTest:21 - Demoe Test  ----error
+2019-05-06 16:00:04 FATAL DemoTest:28 - DemoTest -----fatal
+2019-05-06 16:00:33 ERROR DemoTest:21 - Demoe Test  ----error
+2019-05-06 16:00:33 FATAL DemoTest:28 - DemoTest -----fatal
+2019-05-06 16:06:56 ERROR DemoTest:28 - iosLogin error,iosLoginParam={}
+java.lang.IllegalStateException: 异常异常了
+	at com.gysoft.demo.DemoTest.main(DemoTest.java:25)
+2019-05-06 16:06:56 ERROR DemoTest:32 - Demoe Test  ----error
+2019-05-06 16:10:33 ERROR DemoTest:28 - iosLogin error,iosLoginParam={}
+java.lang.IllegalStateException: 异常异常了
+	at com.gysoft.demo.DemoTest.main(DemoTest.java:25)
+2019-05-06 16:10:33 ERROR DemoTest:32 - Demoe Test  ----error
+2019-05-06 16:10:33 FATAL DemoTest:39 - DemoTest -----fatal
+2019-05-06 16:11:35 ERROR DemoTest:28 - 测试异常链的捕获 error
+java.lang.IllegalStateException: 异常异常了
+	at com.gysoft.demo.DemoTest.main(DemoTest.java:25)
+2019-05-06 16:14:36 ERROR DemoTest:32 - Demoe Test  ----error
+2019-05-06 16:14:36 FATAL DemoTest:39 - DemoTest -----fatal
+2019-05-06 16:14:38 ERROR DemoTest:28 - 测试异常链的捕获 error
+java.lang.IllegalStateException: 异常异常了
+	at com.gysoft.demo.DemoTest.main(DemoTest.java:25)
+2019-05-06 16:14:38 ERROR DemoTest:32 - Demoe Test  ----error
+2019-05-06 16:14:38 FATAL DemoTest:39 - DemoTest -----fatal
+2019-05-06 16:39:21 ERROR DemoTest:28 - 测试异常链的捕获 error
+java.lang.IllegalStateException: 异常异常了
+	at com.gysoft.demo.DemoTest.main(DemoTest.java:25)
+2019-05-06 16:39:21 ERROR DemoTest:32 - Demoe Test  ----error
+2019-05-06 16:39:21 FATAL DemoTest:39 - DemoTest -----fatal

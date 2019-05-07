@@ -16,4 +16,8 @@ public class Producter {
 	public void sendMessage(String message) {
 		rabbitTemplate.convertAndSend(routekey, message);
 	}
+	public void sendMessage(Object obj){
+
+		rabbitTemplate.convertAndSend( obj);
+	}
 }
