@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/rabbitmq" />
     <file type="web" url="file://$PROJECT_DIR$/spring-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-webmvc" />
+    <file type="web" url="file://$PROJECT_DIR$/tiny-ioc" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -25,6 +26,7 @@
         <option value="$PROJECT_DIR$/dubboserver/dubboimpl/pom.xml" />
         <option value="$PROJECT_DIR$/dubboserver/pom.xml" />
         <option value="$PROJECT_DIR$/es/pom.xml" />
+        <option value="$PROJECT_DIR$/gyframework/pom.xml" />
         <option value="$PROJECT_DIR$/spirng-webmvc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-init/pom.xml" />
         <option value="$PROJECT_DIR$/spring-webmvc/pom.xml" />

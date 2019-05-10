@@ -8,9 +8,9 @@ package com.rabbitmq.log.demo;
 public class LogService {
 
 
-    /**   写一个job  执行这个任务定时实现保存
+    /**
      *
-     * 这里选用  线程池里面的调度Schedule线程去实现
+     *
      * 保存日志
      */
 

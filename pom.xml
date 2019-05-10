@@ -19,6 +19,9 @@
         <module>rabbitmq</module>
         <module>log4jdemo</module>
         <module>springioc</module>
+        <module>gyframework</module>
+        <module>gyframework</module>
+        <module>tiny-ioc</module>
 
     </modules>
     <packaging>pom</packaging>

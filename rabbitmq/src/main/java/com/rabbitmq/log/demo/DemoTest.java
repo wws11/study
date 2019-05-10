@@ -15,9 +15,6 @@ public class DemoTest {
 
 
     public static void main(String[] args) {
-
-             //PropertyConfigurator.configure("log4j2.properties");
-
         int  a=1;
 
         try {
