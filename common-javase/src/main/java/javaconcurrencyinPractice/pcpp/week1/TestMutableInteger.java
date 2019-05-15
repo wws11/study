@@ -14,7 +14,7 @@ public class TestMutableInteger {
         });
         t.start();
         System.out.println("Press Enter to set mi to 42:");
-        System.in.read();                   // Wait for enter key
+        System.in.read();                   // WaitNotify for enter key
         mi.set(42);
         System.out.println("mi set to 42, waiting for thread ...");
         try {

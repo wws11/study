@@ -18,7 +18,7 @@ package javaconcurrencyinPractice.pcpp.week2;//package com.vonzhou.learn.jcip.pc
 //    t.start();
 //    System.out.println("Press Enter to get the current value:");
 //    while (true) {
-//      System.in.read();         // Wait for enter key
+//      System.in.read();         // WaitNotify for enter key
 //      System.out.println(lc.get());
 //    }
 //  }
