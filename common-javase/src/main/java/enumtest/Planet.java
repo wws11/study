@@ -32,7 +32,7 @@ private  static  final double G=6.67300E-11;
         return surface;
     }
 
-private    Planet(double mass,double radius){
+    Planet(double mass,double radius){
    this.mass=mass;
    this.radius=radius;
    this.surface=G*mass/(radius*radius);

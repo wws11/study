@@ -1,6 +1,8 @@
 package juc.threadpool;
 
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @Description
@@ -12,7 +14,9 @@ public class ThreadPoolTest {
         /**
          * 核心线程数设置6，最大线程数
          */
-        ThreadPoolExecutor executor = ThreadPoolExecutorFactory.getThreadPoolExecutor();
+        //ThreadPoolExecutor executor = ThreadPoolExecutorFactory.getThreadPoolExecutor();
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(3, 6, 3000, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>(), new ThreadPoolExecutor.DiscardOldestPolicy());
+
         Runnable myRunnable = () -> {
             try {
                 Thread.sleep(2000);

@@ -6,48 +6,66 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
 /**
- * @Description
+ * @Description 自定义一个独占锁
  * @Author DJZ-WWS
  * @Date 2019/5/14 16:44
  */
-public class Mutex  implements Lock {
+public class Mutex implements Lock {
 
-    //使用AQS实现锁
-    private   static   class Sync extends AbstractQueuedLongSynchronizer{
-        //是否处于占用状态
 
+    //静态内部类，自定义同步组件
+    private static class Sync extends AbstractQueuedLongSynchronizer {
         protected Sync() {
-            super();
+
+
         }
 
+        /**
+         * 当状态为0的时候获取锁
+         *
+         * @param arg
+         * @return
+         */
         @Override
         protected boolean tryAcquire(long arg) {
-            return super.tryAcquire(arg);
+            if (compareAndSetState(0, 1)) {
+                setExclusiveOwnerThread(Thread.currentThread());
+                return true;
+            }
+            return false;
         }
 
+        /**
+         * 释放锁，将状态设置为0
+         *
+         * @param arg
+         * @return
+         */
         @Override
         protected boolean tryRelease(long arg) {
-            return super.tryRelease(arg);
+            if (getState() == 0)
+                throw new IllegalMonitorStateException();
+            setExclusiveOwnerThread(null);
+            setState(0);
+            return true;
         }
 
-        @Override
-        protected long tryAcquireShared(long arg) {
-            return super.tryAcquireShared(arg);
-        }
-
-        @Override
-        protected boolean tryReleaseShared(long arg) {
-            return super.tryReleaseShared(arg);
-        }
-
+        /**
+         * 是否处于占用状态
+         *
+         * @return
+         */
         @Override
         protected boolean isHeldExclusively() {
-            return super.isHeldExclusively();
+            return getState() == 1;
         }
     }
+
+    private final Sync sync = new Sync();
+
     @Override
     public void lock() {
-
+        sync.acquire(1);
     }
 
     @Override

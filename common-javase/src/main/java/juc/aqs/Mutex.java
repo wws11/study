@@ -16,7 +16,7 @@ private static class Sync extends AbstractQueuedSynchronizer {
         return getState() == 1;
     }
 
-    // 尝试获取资源，立即返回。成功则返回true，否则false。
+        // 尝试获取资源，立即返回。成功则返回true，否则false。
     @Override
     public boolean tryAcquire(int acquires) {
         assert acquires == 1; // 这里限定只能为1个量

@@ -13,6 +13,7 @@ public class Person implements Serializable {
 
     private String  name;
     private  int age;
+    private String career;
 
     public Person(String name, int age) {
         this.name = name;
@@ -20,6 +21,14 @@ public class Person implements Serializable {
     }
 
     public Person() {
+    }
+
+    public String getCareer() {
+        return career;
+    }
+
+    public void setCareer(String career) {
+        this.career = career;
     }
 
     public String getName() {
