@@ -13,14 +13,10 @@
         <module>myspring</module>
         <module>common</module>
         <module>note</module>
-        <module>dubboserver</module>
         <module>mongodb-client</module>
-        <module>com.gysoft.cas</module>
         <module>rabbitmq</module>
         <module>log4jdemo</module>
         <module>springioc</module>
-        <module>gyframework</module>
-        <module>gyframework</module>
         <module>tiny-ioc</module>
 
     </modules>

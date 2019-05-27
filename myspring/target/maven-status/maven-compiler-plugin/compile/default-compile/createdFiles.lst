@@ -1,7 +1,0 @@
-com\gysoft\spring\Car.class
-com\gysoft\spring\JDBCTest.class
-com\gysoft\spring\bean\User.class
-com\gysoft\spring\TestSpring.class
-com\gysoft\spring\MyBeanPostProcessor.class
-com\gysoft\spring\MyInstantiationAwareBeanPostProcessor.class
-com\gysoft\spring\MyBeanFactory.class
